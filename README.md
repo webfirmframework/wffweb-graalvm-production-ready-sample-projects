@@ -2,7 +2,6 @@
 ##### Note: your system should have ~8GB free RAM to build native image and it may vary based on the project size.
 #### It contains sample code for url rewriting/routing, JWT token based authentication/authorization and configuration for multi node support for scaling.
 
-[Fork](https://github.com/webfirmframework/wffweb-graalvm-production-ready-sample-projects/fork)
 
 ##### To run this project in IDE, open this project with IntelliJ IDEA as a maven project and run `com.webfirmframework.web.launcher.Main.main` method.
 
