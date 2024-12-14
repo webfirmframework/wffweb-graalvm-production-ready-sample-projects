@@ -1,0 +1,2018 @@
+{
+  "reflection": [
+    {
+      "type": "[B"
+    },
+    {
+      "type": "[C"
+    },
+    {
+      "type": "[D"
+    },
+    {
+      "type": "[F"
+    },
+    {
+      "type": "[I"
+    },
+    {
+      "type": "[J"
+    },
+    {
+      "type": "[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+    },
+    {
+      "type": "[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+    },
+    {
+      "type": "[Ljava.lang.String;"
+    },
+    {
+      "type": "[Ljavax.management.openmbean.CompositeData;"
+    },
+    {
+      "type": "[Lsun.security.pkcs.SignerInfo;"
+    },
+    {
+      "type": "[S"
+    },
+    {
+      "type": "[Z"
+    },
+    {
+      "type": "com.auth0.jwt.JWT"
+    },
+    {
+      "type": "com.auth0.jwt.JWTCreator$Builder"
+    },
+    {
+      "type": "com.auth0.jwt.algorithms.Algorithm"
+    },
+    {
+      "type": "com.auth0.jwt.exceptions.JWTVerificationException"
+    },
+    {
+      "type": "com.auth0.jwt.interfaces.Claim"
+    },
+    {
+      "type": "com.auth0.jwt.interfaces.DecodedJWT"
+    },
+    {
+      "type": "com.auth0.jwt.interfaces.JWTVerifier"
+    },
+    {
+      "type": "com.auth0.jwt.interfaces.Verification"
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.crypto.provider.HmacCore$HmacSHA256",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.GarbageCollectorMXBean"
+    },
+    {
+      "type": "com.sun.management.GcInfo"
+    },
+    {
+      "type": "com.sun.management.HotSpotDiagnosticMXBean"
+    },
+    {
+      "type": "com.sun.management.ThreadMXBean"
+    },
+    {
+      "type": "com.sun.management.UnixOperatingSystemMXBean"
+    },
+    {
+      "type": "com.sun.management.VMOption"
+    },
+    {
+      "type": "com.sun.management.internal.GarbageCollectorExtImpl"
+    },
+    {
+      "type": "com.sun.management.internal.HotSpotDiagnostic"
+    },
+    {
+      "type": "com.sun.management.internal.HotSpotThreadImpl"
+    },
+    {
+      "type": "com.sun.management.internal.OperatingSystemImpl"
+    },
+    {
+      "type": "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.webfirmframework.wffweb.PushFailedException"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.common.URIEvent"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.css.HeightCss",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.webfirmframework.wffweb.css.WidthCss",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.BrowserPage"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.BrowserPageContext"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.BrowserPageSession"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.HeartbeatManager"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.LocalStorage"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.LocalStorage$Item"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.PayloadProcessor"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.WebSocketOpenedRecord"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.WebSocketPushListener"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.server.page.action.BrowserPageAction"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.AbstractHtml"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.Body"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.Br"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.H1"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.H2"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.H3"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.H6"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.Hr"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.Html"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.SharedTagContent"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.SharedTagContent$ChangeEvent"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.SharedTagContent$Content"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.SharedTagContent$ContentChangeListener"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.SharedTagContent$ContentFormatter"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.TagEvent"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.TagNameConstants",
+      "allPublicFields": true
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.TitleTag"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.URIStateSwitch"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.WhenURIProperties"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.AttributeNameConstants",
+      "allPublicFields": true
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Charset"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Defer"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.For"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Href"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Name"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Rel"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Role"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Src"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Target"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Type"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.Value"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.core.AbstractAttribute"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.event.ServerMethod"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.event.ServerMethod$Event"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.event.form.OnSubmit"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.event.mouse.OnClick"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.global.ClassAttribute"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.global.Id"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attribute.global.Style"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.attributewff.CustomAttribute"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.formatting.Pre"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.formsandinputs.Button"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.formsandinputs.Form"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.formsandinputs.Input"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.formsandinputs.Label"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.html5.attribute.Content"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.html5.attribute.Placeholder"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.html5.attribute.Required"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.html5.attribute.global.DataAttribute"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.html5.attribute.global.Hidden"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.links.A"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.links.Link"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.metainfo.Head"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.metainfo.Meta"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.programming.Script"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.stylesandsemantics.Div"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.stylesandsemantics.Span"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.tables.TBody"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.tables.THead"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.tables.Table"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.tables.Td"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.tables.Th"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.tables.Tr"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.htmlwff.NoTag"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.htmlwff.TagContent"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.repository.TagRepository"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.util.ByteBufferUtil"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.util.ParsedURI"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.util.Slice"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.util.StringUtil"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.util.URIUtil"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.BMValueType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.ValueValueType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.WffBMArray"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.WffBMByteArray"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.WffBMObject"
+    },
+    {
+      "type": "com.webfirmframework.wffwebconfig.server.servlet.FileUploadServlet",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.webfirmframework.wffwebconfig.server.servlet.HeartBeatServlet",
+      "allDeclaredFields": true
+    },
+    {
+      "type": "com.webfirmframework.wffwebconfig.server.servlet.IndexPageServlet",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.webfirmframework.wffwebconfig.server.session.listener.SessionListener",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "com.webfirmframework.wffwebconfig.server.ws.WSServerForIndexPage",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "onClose",
+          "parameterTypes": [
+            "jakarta.websocket.Session"
+          ]
+        },
+        {
+          "name": "onError",
+          "parameterTypes": [
+            "jakarta.websocket.Session",
+            "java.lang.Throwable"
+          ]
+        },
+        {
+          "name": "onMessage",
+          "parameterTypes": [
+            "java.nio.ByteBuffer",
+            "boolean",
+            "jakarta.websocket.Session"
+          ]
+        },
+        {
+          "name": "onOpen",
+          "parameterTypes": [
+            "jakarta.websocket.Session",
+            "jakarta.websocket.EndpointConfig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jakarta.ejb.EJB"
+    },
+    {
+      "type": "jakarta.persistence.PersistenceContext"
+    },
+    {
+      "type": "jakarta.servlet.GenericFilter"
+    },
+    {
+      "type": "jakarta.servlet.GenericServlet"
+    },
+    {
+      "type": "jakarta.servlet.ServletContext"
+    },
+    {
+      "type": "jakarta.servlet.ServletException"
+    },
+    {
+      "type": "jakarta.servlet.ServletOutputStream"
+    },
+    {
+      "type": "jakarta.servlet.annotation.MultipartConfig"
+    },
+    {
+      "type": "jakarta.servlet.annotation.WebListener"
+    },
+    {
+      "type": "jakarta.servlet.annotation.WebServlet"
+    },
+    {
+      "type": "jakarta.servlet.http.Cookie"
+    },
+    {
+      "type": "jakarta.servlet.http.HttpServlet"
+    },
+    {
+      "type": "jakarta.servlet.http.HttpServletRequest"
+    },
+    {
+      "type": "jakarta.servlet.http.HttpServletResponse"
+    },
+    {
+      "type": "jakarta.servlet.http.HttpSessionEvent"
+    },
+    {
+      "type": "jakarta.servlet.http.HttpSessionListener"
+    },
+    {
+      "type": "jakarta.servlet.http.Part"
+    },
+    {
+      "type": "jakarta.servlet.jsp.JspContext"
+    },
+    {
+      "type": "jakarta.websocket.EndpointConfig"
+    },
+    {
+      "type": "jakarta.websocket.HandshakeResponse"
+    },
+    {
+      "type": "jakarta.websocket.OnClose"
+    },
+    {
+      "type": "jakarta.websocket.OnError"
+    },
+    {
+      "type": "jakarta.websocket.OnMessage"
+    },
+    {
+      "type": "jakarta.websocket.OnOpen"
+    },
+    {
+      "type": "jakarta.websocket.RemoteEndpoint$Basic"
+    },
+    {
+      "type": "jakarta.websocket.Session"
+    },
+    {
+      "type": "jakarta.websocket.server.HandshakeRequest"
+    },
+    {
+      "type": "jakarta.websocket.server.ServerEndpoint"
+    },
+    {
+      "type": "jakarta.websocket.server.ServerEndpointConfig"
+    },
+    {
+      "type": "jakarta.websocket.server.ServerEndpointConfig$Configurator"
+    },
+    {
+      "type": "jakarta.xml.ws.WebServiceRef"
+    },
+    {
+      "type": "java.lang.Boolean",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Byte",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Character",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.ClassLoader",
+      "fields": [
+        {
+          "name": "classLoaderValueMap"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Deprecated"
+    },
+    {
+      "type": "java.lang.Double",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Float",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Integer",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Long",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Object"
+    },
+    {
+      "type": "java.lang.Short",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.StackTraceElement"
+    },
+    {
+      "type": "java.lang.String",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Thread",
+      "fields": [
+        {
+          "name": "threadLocalRandomProbe"
+        }
+      ],
+      "methods": [
+        {
+          "name": "ofVirtual",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Thread$Builder",
+      "methods": [
+        {
+          "name": "name",
+          "parameterTypes": [
+            "java.lang.String",
+            "long"
+          ]
+        },
+        {
+          "name": "start",
+          "parameterTypes": [
+            "java.lang.Runnable"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Void",
+      "fields": [
+        {
+          "name": "TYPE"
+        }
+      ]
+    },
+    {
+      "type": "java.lang.WrongThreadException"
+    },
+    {
+      "type": "java.lang.management.BufferPoolMXBean"
+    },
+    {
+      "type": "java.lang.management.ClassLoadingMXBean"
+    },
+    {
+      "type": "java.lang.management.CompilationMXBean"
+    },
+    {
+      "type": "java.lang.management.LockInfo"
+    },
+    {
+      "type": "java.lang.management.ManagementPermission",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.management.MemoryMXBean"
+    },
+    {
+      "type": "java.lang.management.MemoryManagerMXBean"
+    },
+    {
+      "type": "java.lang.management.MemoryPoolMXBean"
+    },
+    {
+      "type": "java.lang.management.MemoryUsage"
+    },
+    {
+      "type": "java.lang.management.MonitorInfo"
+    },
+    {
+      "type": "java.lang.management.PlatformLoggingMXBean",
+      "methods": [
+        {
+          "name": "getLoggerLevel",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "getLoggerNames",
+          "parameterTypes": []
+        },
+        {
+          "name": "getParentLoggerName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setLoggerLevel",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.management.RuntimeMXBean"
+    },
+    {
+      "type": "java.lang.management.ThreadInfo"
+    },
+    {
+      "type": "java.math.BigDecimal"
+    },
+    {
+      "type": "java.math.BigInteger"
+    },
+    {
+      "type": "java.net.UnixDomainSocketAddress",
+      "methods": [
+        {
+          "name": "of",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.nio.channels.ServerSocketChannel",
+      "methods": [
+        {
+          "name": "open",
+          "parameterTypes": [
+            "java.net.ProtocolFamily"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.nio.channels.SocketChannel",
+      "methods": [
+        {
+          "name": "open",
+          "parameterTypes": [
+            "java.net.ProtocolFamily"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.security.MessageDigestSpi"
+    },
+    {
+      "type": "java.security.SecureRandomParameters"
+    },
+    {
+      "type": "java.security.interfaces.RSAPrivateKey"
+    },
+    {
+      "type": "java.security.interfaces.RSAPublicKey"
+    },
+    {
+      "type": "java.util.ArrayList",
+      "methods": [
+        {
+          "name": "add",
+          "parameterTypes": [
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.Date"
+    },
+    {
+      "type": "java.util.PropertyPermission",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.Executors",
+      "methods": [
+        {
+          "name": "newVirtualThreadPerTaskExecutor",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.ForkJoinTask",
+      "fields": [
+        {
+          "name": "aux"
+        },
+        {
+          "name": "status"
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor"
+    },
+    {
+      "type": "java.util.concurrent.atomic.AtomicBoolean",
+      "fields": [
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.atomic.AtomicReference",
+      "fields": [
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
+      "type": "java.util.concurrent.atomic.Striped64",
+      "fields": [
+        {
+          "name": "base"
+        },
+        {
+          "name": "cellsBusy"
+        }
+      ]
+    },
+    {
+      "type": "java.util.logging.LogManager",
+      "methods": [
+        {
+          "name": "getLoggingMXBean",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "java.util.logging.LoggingMXBean"
+    },
+    {
+      "type": "java.util.logging.SimpleFormatter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "javax.management.MBeanOperationInfo",
+      "methods": [
+        {
+          "name": "getSignature",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "javax.management.MBeanServerBuilder",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "javax.management.ObjectName"
+    },
+    {
+      "type": "javax.management.StandardEmitterMBean",
+      "methods": [
+        {
+          "name": "cacheMBeanInfo",
+          "parameterTypes": [
+            "javax.management.MBeanInfo"
+          ]
+        },
+        {
+          "name": "getCachedMBeanInfo",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMBeanInfo",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "javax.management.openmbean.CompositeData"
+    },
+    {
+      "type": "javax.management.openmbean.OpenMBeanOperationInfoSupport"
+    },
+    {
+      "type": "javax.management.openmbean.TabularData"
+    },
+    {
+      "type": "javax.security.auth.x500.X500Principal",
+      "fields": [
+        {
+          "name": "thisX500Name"
+        }
+      ],
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "sun.security.x509.X500Name"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "jdk.internal.misc.Unsafe"
+    },
+    {
+      "type": "jdk.management.jfr.ConfigurationInfo"
+    },
+    {
+      "type": "jdk.management.jfr.EventTypeInfo"
+    },
+    {
+      "type": "jdk.management.jfr.FlightRecorderMXBean"
+    },
+    {
+      "type": "jdk.management.jfr.FlightRecorderMXBeanImpl",
+      "methods": [
+        {
+          "name": "cacheMBeanInfo",
+          "parameterTypes": [
+            "javax.management.MBeanInfo"
+          ]
+        },
+        {
+          "name": "getCachedMBeanInfo",
+          "parameterTypes": []
+        },
+        {
+          "name": "getMBeanInfo",
+          "parameterTypes": []
+        },
+        {
+          "name": "getNotificationInfo",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "jdk.management.jfr.RecordingInfo"
+    },
+    {
+      "type": "jdk.management.jfr.SettingDescriptorInfo"
+    },
+    {
+      "type": "org.apache.catalina.Container",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.CredentialHandler",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.LifecycleListener",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.LifecycleState",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.Wrapper",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.authenticator.NonLoginAuthenticator",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.connector.Request",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.core.StandardContext",
+      "methods": [
+        {
+          "name": "setUseHttpOnly",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.mbeans.ClassNameMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.mbeans.ConnectorMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.mbeans.ContainerMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.mbeans.ContextMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.mbeans.NamingResourcesMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.mbeans.ServiceMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.servlets.DefaultServlet",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.startup.ContextConfig",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.catalina.startup.Tomcat$SimpleRealm"
+    },
+    {
+      "type": "org.apache.catalina.util.CharsetMapper",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.AbstractProtocol",
+      "methods": [
+        {
+          "name": "getAddress",
+          "parameterTypes": []
+        },
+        {
+          "name": "setMaxThreads",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setPort",
+          "parameterTypes": [
+            "int"
+          ]
+        },
+        {
+          "name": "setProperty",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.Adapter",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.ContinueResponseTiming",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.Processor",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.Request",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.RequestGroupInfo",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.RequestInfo"
+    },
+    {
+      "type": "org.apache.coyote.Response",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.UpgradeProtocol",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.http11.AbstractHttp11Protocol",
+      "methods": [
+        {
+          "name": "isSSLEnabled",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.coyote.http11.Http11NioProtocol"
+    },
+    {
+      "type": "org.apache.jasper.servlet.JasperInitializer",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.jasper.servlet.JspServlet",
+      "allDeclaredFields": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.buf.StringCache"
+    },
+    {
+      "type": "org.apache.tomcat.util.collections.LocalStrings"
+    },
+    {
+      "type": "org.apache.tomcat.util.collections.LocalStrings_en"
+    },
+    {
+      "type": "org.apache.tomcat.util.collections.LocalStrings_en_US"
+    },
+    {
+      "type": "org.apache.tomcat.util.descriptor.tld.TagXml",
+      "methods": [
+        {
+          "name": "setDynamicAttributes",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.descriptor.tld.TldRuleSet$Attribute",
+      "methods": [
+        {
+          "name": "setFragment",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setRequestTime",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setRequired",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.descriptor.tld.TldRuleSet$Variable",
+      "methods": [
+        {
+          "name": "setDeclare",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.descriptor.web.SessionConfig",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setSessionTimeout",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.descriptor.web.WebXml",
+      "methods": [
+        {
+          "name": "addWelcomeFile",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setDisplayName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setPublicId",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setSessionConfig",
+          "parameterTypes": [
+            "org.apache.tomcat.util.descriptor.web.SessionConfig"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.AttributeInfo",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "setIs",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setReadable",
+          "parameterTypes": [
+            "boolean"
+          ]
+        },
+        {
+          "name": "setWriteable",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.BaseModelMBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.FeatureInfo",
+      "methods": [
+        {
+          "name": "setDescription",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setType",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.ManagedBean",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "addAttribute",
+          "parameterTypes": [
+            "org.apache.tomcat.util.modeler.AttributeInfo"
+          ]
+        },
+        {
+          "name": "addOperation",
+          "parameterTypes": [
+            "org.apache.tomcat.util.modeler.OperationInfo"
+          ]
+        },
+        {
+          "name": "setClassName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setDescription",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setDomain",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setGroup",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setName",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setType",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.OperationInfo",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "addParameter",
+          "parameterTypes": [
+            "org.apache.tomcat.util.modeler.ParameterInfo"
+          ]
+        },
+        {
+          "name": "setImpact",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        },
+        {
+          "name": "setReturnType",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.ParameterInfo",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsDigesterSource",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.modeler.modules.MbeansDescriptorsIntrospectionSource",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.net.AbstractEndpoint",
+      "methods": [
+        {
+          "name": "setUseAsyncIO",
+          "parameterTypes": [
+            "boolean"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.net.NioEndpoint"
+    },
+    {
+      "type": "org.apache.tomcat.util.net.SSLHostConfig",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.util.net.SocketProperties"
+    },
+    {
+      "type": "org.apache.tomcat.websocket.WsFrameBase",
+      "fields": [
+        {
+          "name": "readState"
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.websocket.pojo.PojoEndpointBase"
+    },
+    {
+      "type": "org.apache.tomcat.websocket.pojo.PojoEndpointClient"
+    },
+    {
+      "type": "org.apache.tomcat.websocket.pojo.PojoEndpointServer"
+    },
+    {
+      "type": "org.apache.tomcat.websocket.server.DefaultServerEndpointConfigurator"
+    },
+    {
+      "type": "org.apache.tomcat.websocket.server.WsFilter"
+    },
+    {
+      "type": "org.apache.tomcat.websocket.server.WsHttpUpgradeHandler",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.apache.tomcat.websocket.server.WsSci",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.graalvm.nativeimage.ImageInfo",
+      "methods": [
+        {
+          "name": "inImageCode",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.ietf.jgss.GSSContext",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.ietf.jgss.GSSName",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "org.json.JSONObject"
+    },
+    {
+      "type": "sun.management.ClassLoadingImpl"
+    },
+    {
+      "type": "sun.management.CompilationImpl"
+    },
+    {
+      "type": "sun.management.ManagementFactoryHelper$1"
+    },
+    {
+      "type": "sun.management.ManagementFactoryHelper$PlatformLoggingImpl"
+    },
+    {
+      "type": "sun.management.MemoryImpl"
+    },
+    {
+      "type": "sun.management.MemoryManagerImpl"
+    },
+    {
+      "type": "sun.management.MemoryPoolImpl"
+    },
+    {
+      "type": "sun.management.RuntimeImpl"
+    },
+    {
+      "type": "sun.security.provider.MD5",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.NativePRNG",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA2$SHA256",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SHA5$SHA384",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.SecureRandom",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.security.SecureRandomParameters"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.provider.X509Factory",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSAKeyFactory$Legacy",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSASignature$SHA256withRSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.rsa.RSASignature$SHA384withRSA",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": []
+        }
+      ]
+    },
+    {
+      "type": "sun.security.util.ObjectIdentifier"
+    },
+    {
+      "type": "sun.security.x509.AuthorityInfoAccessExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.AuthorityKeyIdentifierExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.BasicConstraintsExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.CRLDistributionPointsExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.CertificateExtensions"
+    },
+    {
+      "type": "sun.security.x509.CertificatePoliciesExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.ExtendedKeyUsageExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.KeyUsageExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.SubjectAlternativeNameExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.security.x509.SubjectKeyIdentifierExtension",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.Boolean",
+            "java.lang.Object"
+          ]
+        }
+      ]
+    }
+  ],
+  "jni": [
+    {
+      "type": "[Lcom.sun.management.internal.DiagnosticCommandArgumentInfo;"
+    },
+    {
+      "type": "[Lcom.sun.management.internal.DiagnosticCommandInfo;"
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "boolean",
+            "boolean",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo",
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "java.util.List"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.lang.Boolean",
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "java.util.Arrays",
+      "methods": [
+        {
+          "name": "asList",
+          "parameterTypes": [
+            "java.lang.Object[]"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sun.management.VMManagementImpl",
+      "fields": [
+        {
+          "name": "compTimeMonitoringSupport"
+        },
+        {
+          "name": "currentThreadCpuTimeSupport"
+        },
+        {
+          "name": "objectMonitorUsageSupport"
+        },
+        {
+          "name": "otherThreadCpuTimeSupport"
+        },
+        {
+          "name": "remoteDiagnosticCommandsSupport"
+        },
+        {
+          "name": "synchronizerUsageSupport"
+        },
+        {
+          "name": "threadAllocatedMemorySupport"
+        },
+        {
+          "name": "threadContentionMonitoringSupport"
+        }
+      ]
+    }
+  ]
+}
