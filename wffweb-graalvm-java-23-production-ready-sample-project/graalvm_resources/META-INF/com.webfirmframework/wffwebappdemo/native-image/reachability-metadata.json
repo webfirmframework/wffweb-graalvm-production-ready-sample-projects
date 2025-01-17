@@ -916,6 +916,14 @@
       ]
     },
     {
+      "type": "java.util.concurrent.atomic.Striped64$Cell",
+      "fields": [
+        {
+          "name": "value"
+        }
+      ]
+    },
+    {
       "type": "java.util.logging.LogManager",
       "methods": [
         {
