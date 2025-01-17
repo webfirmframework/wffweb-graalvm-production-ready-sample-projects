@@ -333,6 +333,18 @@
       "type": "com.webfirmframework.wffweb.tag.html.links.Link"
     },
     {
+      "type": "com.webfirmframework.wffweb.tag.html.listener.ParentGainedListener"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.listener.ParentGainedListener$Event"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.listener.ParentLostListener"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.tag.html.listener.ParentLostListener$Event"
+    },
+    {
       "type": "com.webfirmframework.wffweb.tag.html.metainfo.Head"
     },
     {
