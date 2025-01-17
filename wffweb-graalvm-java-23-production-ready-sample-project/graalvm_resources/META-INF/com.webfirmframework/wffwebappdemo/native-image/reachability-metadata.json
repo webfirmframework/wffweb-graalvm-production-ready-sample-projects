@@ -837,6 +837,9 @@
       "type": "java.security.interfaces.RSAPublicKey"
     },
     {
+      "type": "java.text.ListFormat"
+    },
+    {
       "type": "java.util.ArrayList",
       "methods": [
         {
@@ -981,6 +984,9 @@
     },
     {
       "type": "javax.management.openmbean.TabularData"
+    },
+    {
+      "type": "javax.security.auth.Subject"
     },
     {
       "type": "javax.security.auth.x500.X500Principal",
@@ -1425,6 +1431,9 @@
       ]
     },
     {
+      "type": "org.apache.tomcat.util.http.parser.HttpParser"
+    },
+    {
       "type": "org.apache.tomcat.util.modeler.AttributeInfo",
       "methods": [
         {
@@ -1604,6 +1613,9 @@
           ]
         }
       ]
+    },
+    {
+      "type": "org.apache.tomcat.util.net.AbstractEndpoint$Handler"
     },
     {
       "type": "org.apache.tomcat.util.net.NioEndpoint"
