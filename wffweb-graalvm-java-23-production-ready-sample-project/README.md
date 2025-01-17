@@ -1,6 +1,8 @@
-# wffweb demo app with wffweb-12.0.1 and GraalVM Java 23
+# wffweb demo app with wffweb-12.0.2 and GraalVM Java 23
 ##### Note: your system should have ~8GB free RAM to build native image and it may vary based on the project size.
+##### NB: Do not forget to change random secret string in `com.webfirmframework.wffwebcommon.MultiInstanceTokenUtil` class before deployment.
 #### It contains sample code for url rewriting/routing, JWT token based authentication/authorization and configuration for multi node support for scaling.
+
 
 
 ##### To run this project in IDE, open this project with IntelliJ IDEA as a maven project and run `com.webfirmframework.web.launcher.Main.main` method.
