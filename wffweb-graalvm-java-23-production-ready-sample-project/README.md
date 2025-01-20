@@ -18,6 +18,9 @@ ___
 ##### To build native executable
 execute command `mvn package -Pnative -Dagent package`
 
+NB: Please make sure that there is a 4GB free RAM on the build machine.
+If you want to build the native image with different memory, modify the `<arg>-J-Xmx4g</arg>` value in `<buildArgs>` of `native-maven-plugin` in `pom.xml` file.
+
 ___
 
 ##### To run native executable on your machine
