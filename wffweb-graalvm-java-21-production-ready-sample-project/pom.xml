@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>com.webfirmframework</groupId>
 			<artifactId>wffweb</artifactId>
-			<version>12.0.1</version>
+			<version>12.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
@@ -159,11 +159,7 @@
 								<arg>-H:+DashboardAll</arg>
 								<arg>--enable-http</arg>
 								<arg>--enable-https</arg>
-								<arg>-H:ReflectionConfigurationFiles=${project.build.directory}/../graalvm_resources/META-INF/com.webfirmframework/wffwebappdemo/native-image/reflect-config.json</arg>
-								<arg>-H:ResourceConfigurationFiles=${project.build.directory}/../graalvm_resources/META-INF/com.webfirmframework/wffwebappdemo/native-image/resource-config.json</arg>
-								<arg>-H:JNIConfigurationFiles=${project.build.directory}/../graalvm_resources/META-INF/com.webfirmframework/wffwebappdemo/native-image/jni-config.json</arg>
-								<arg>-H:SerializationConfigurationFiles=${project.build.directory}/../graalvm_resources/META-INF/com.webfirmframework/wffwebappdemo/native-image/serialization-config.json</arg>
-								<arg>-H:DynamicProxyConfigurationFiles=${project.build.directory}/../graalvm_resources/META-INF/com.webfirmframework/wffwebappdemo/native-image/proxy-config.json</arg>
+								<arg>-H:ConfigurationFileDirectories=${project.build.directory}/../graalvm_resources/META-INF/com.webfirmframework/wffwebappdemo/native-image</arg>
 								<arg>-H:+AddAllCharsets</arg>
 								<arg>--features=com.webfirmframework.web.launcher.GraalVMRuntimeReflectionRegistrationFeature</arg>
 								<arg>-J-Xmx4g</arg>
