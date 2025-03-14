@@ -154,6 +154,18 @@
       ]
     },
     {
+      "type": "com.webfirmframework.wffweb.json.JsonArrayType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonObjectType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonParser"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonParser$Builder"
+    },
+    {
       "type": "com.webfirmframework.wffweb.server.page.BrowserPage"
     },
     {
