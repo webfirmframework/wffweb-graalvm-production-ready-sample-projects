@@ -11,10 +11,10 @@
 		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>21</java.version>
+		<java.version>24</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<tomcat.version>11.0.2</tomcat.version>
+		<tomcat.version>11.0.10</tomcat.version>
 		<mainClass>com.webfirmframework.web.launcher.Main</mainClass>
 		<imageName>minimalproductionsample</imageName>
 		<native.maven.plugin.version>0.10.4</native.maven.plugin.version>
