@@ -121,6 +121,9 @@
       "type": "com.sun.management.internal.OperatingSystemImpl"
     },
     {
+      "type": "com.sun.management.internal.VirtualThreadSchedulerImpls$VirtualThreadSchedulerImpl"
+    },
+    {
       "type": "com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
       "methods": [
         {
@@ -152,6 +155,18 @@
           "parameterTypes": []
         }
       ]
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonArrayType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonObjectType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonParser"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.json.JsonParser$Builder"
     },
     {
       "type": "com.webfirmframework.wffweb.server.page.BrowserPage"
@@ -1023,6 +1038,9 @@
     },
     {
       "type": "jdk.internal.misc.Unsafe"
+    },
+    {
+      "type": "jdk.management.VirtualThreadSchedulerMXBean"
     },
     {
       "type": "jdk.management.jfr.ConfigurationInfo"
@@ -2004,6 +2022,16 @@
             "java.lang.String",
             "java.lang.String",
             "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
             "java.lang.String",
             "java.lang.String",
             "java.lang.String",

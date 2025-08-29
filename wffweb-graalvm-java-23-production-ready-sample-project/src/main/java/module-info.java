@@ -6,7 +6,6 @@ module com.webfirmframework.wffwebappdemo {
     requires org.apache.tomcat.embed.websocket;
 
     requires com.auth0.jwt;
-    requires org.json;
     requires org.graalvm.nativeimage;
 
 }
