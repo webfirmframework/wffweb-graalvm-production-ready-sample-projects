@@ -86,7 +86,7 @@ public class WSServerForIndexPage extends Configurator {
                 && !ServerConstants.ENABLE_HEARTBEAT ?
                 BrowserPageContext.INSTANCE.webSocketOpened(instanceId)
                 : BrowserPageContext.INSTANCE.webSocketOpened(instanceId,
-                k -> new HeartbeatManager(AppSettings.CACHED_THREAD_POOL,
+                k -> new HeartbeatManager(AppSettings.VIRTUAL_THREAD_EXECUTOR,
                         HTTP_SESSION_HEARTBEAT_INTERVAL, new HeartbeatRunnable(k)));
         HeartbeatManager hbm = null;
         BrowserPage browserPage = null;

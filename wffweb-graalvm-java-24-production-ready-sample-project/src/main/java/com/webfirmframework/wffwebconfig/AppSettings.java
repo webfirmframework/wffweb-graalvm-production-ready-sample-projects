@@ -8,10 +8,10 @@ import java.util.concurrent.Executors;
 
 public class AppSettings {
     
-    public static final ExecutorService CACHED_THREAD_POOL = Executors.newCachedThreadPool();
+    public static final ExecutorService VIRTUAL_THREAD_EXECUTOR = Executors.newVirtualThreadPerTaskExecutor();
     
     static {
-    	BrowserPageContext.INSTANCE.enableAutoClean(ServerConstants.SESSION_TIMEOUT_MILLISECONDS, CACHED_THREAD_POOL);
+    	BrowserPageContext.INSTANCE.enableAutoClean(ServerConstants.SESSION_TIMEOUT_MILLISECONDS, VIRTUAL_THREAD_EXECUTOR);
     }
     
 }
