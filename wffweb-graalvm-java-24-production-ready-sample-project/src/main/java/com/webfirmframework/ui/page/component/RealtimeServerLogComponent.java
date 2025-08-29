@@ -56,7 +56,7 @@ public class RealtimeServerLogComponent extends Div {
             final Boolean existed = this.existedInBrowserPage;
 
             if (existed != null && existed) {
-                AppSettings.CACHED_THREAD_POOL.execute(() -> {
+                AppSettings.VIRTUAL_THREAD_EXECUTOR.execute(() -> {
                     if (!BrowserPageContext.INSTANCE.existsAndValid(documentModel.browserPage())) {
                         this.existedInBrowserPage = false;
                         hiddenSpan.removeSharedTagContent(false);
@@ -67,7 +67,7 @@ public class RealtimeServerLogComponent extends Div {
         RealtimeServerLogComponent.this.addParentGainedListener(event -> RealtimeServerLogComponent.this.existedInBrowserPage = true);
         RealtimeServerLogComponent.this.addParentLostListener(event -> {
             RealtimeServerLogComponent.this.existedInBrowserPage = false;
-            AppSettings.CACHED_THREAD_POOL.execute(() -> hiddenSpan.removeSharedTagContent(false));
+            AppSettings.VIRTUAL_THREAD_EXECUTOR.execute(() -> hiddenSpan.removeSharedTagContent(false));
         });
 
     }

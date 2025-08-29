@@ -45,7 +45,7 @@ public class IndexPage extends BrowserPage {
         // writing here will be a nice separation of concern.
         super.setWebSocketHeartbeatInterval(HEARTBEAT_TIME_MILLISECONDS);
         super.setWebSocketReconnectInterval(WS_RECONNECT_TIME);
-        super.setExecutor(AppSettings.CACHED_THREAD_POOL);
+        super.setExecutor(AppSettings.VIRTUAL_THREAD_EXECUTOR);
     }
 
     @Override
