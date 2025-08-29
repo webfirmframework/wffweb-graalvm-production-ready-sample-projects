@@ -36,7 +36,8 @@ public class RealtimeServerLogComponent extends Div {
         Span hiddenSpan = new Span(this, new Hidden());
         hiddenSpan.subscribeTo(GlobalSTC.LOGGER_STC, content -> {
 
-            AbstractHtml log = new Div(null).give(TagContent::text, content.content());
+            AbstractHtml log = content.contentTypeHtml() ? new Div(null).give(TagContent::html, content.content())
+                    : new Div(null).give(TagContent::text, content.content());
             logDiv.appendChild(log);
 
             //to show only last 50 logs
