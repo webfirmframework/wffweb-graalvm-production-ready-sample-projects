@@ -414,15 +414,6 @@
       "type": "com.webfirmframework.wffweb.util.URIUtil"
     },
     {
-      "type": "com.webfirmframework.wffweb.wffbm.data.BMValueType"
-    },
-    {
-      "type": "com.webfirmframework.wffweb.wffbm.data.ValueValueType"
-    },
-    {
-      "type": "com.webfirmframework.wffweb.wffbm.data.WffBMArray"
-    },
-    {
       "type": "com.webfirmframework.wffweb.wffbm.data.WffBMByteArray"
     },
     {
@@ -766,6 +757,9 @@
     },
     {
       "type": "java.util.Date"
+    },
+    {
+      "type": "java.util.SequencedCollection"
     },
     {
       "type": "java.util.concurrent.Executors",
@@ -2132,9 +2126,6 @@
       "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadComponent.class"
     },
     {
-      "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadWithoutActionUrlComponent$FileHolder.class"
-    },
-    {
       "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadWithoutActionUrlComponent.class"
     },
     {
@@ -2648,15 +2639,6 @@
       "glob": "com/webfirmframework/wffweb/view/HtmlView.class"
     },
     {
-      "glob": "com/webfirmframework/wffweb/wffbm/data/BMValueType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/wffbm/data/ValueValueType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/wffbm/data/WffBMArray.class"
-    },
-    {
       "glob": "com/webfirmframework/wffweb/wffbm/data/WffBMByteArray.class"
     },
     {
@@ -2720,10 +2702,40 @@
       "glob": "conf/context.xml"
     },
     {
+      "glob": "jakarta/el/CompositeELResolver.class"
+    },
+    {
+      "glob": "jakarta/el/ELContext.class"
+    },
+    {
+      "glob": "jakarta/el/ELException.class"
+    },
+    {
       "glob": "jakarta/el/ELResolver.class"
     },
     {
+      "glob": "jakarta/el/Expression.class"
+    },
+    {
+      "glob": "jakarta/el/FunctionMapper.class"
+    },
+    {
+      "glob": "jakarta/el/MethodExpression.class"
+    },
+    {
+      "glob": "jakarta/el/MethodNotFoundException.class"
+    },
+    {
+      "glob": "jakarta/el/PropertyNotFoundException.class"
+    },
+    {
+      "glob": "jakarta/el/PropertyNotWritableException.class"
+    },
+    {
       "glob": "jakarta/el/Util$Wrapper.class"
+    },
+    {
+      "glob": "jakarta/el/ValueExpression.class"
     },
     {
       "glob": "jakarta/el/VariableMapper.class"
@@ -2738,7 +2750,16 @@
       "glob": "jakarta/security/auth/message/callback/SecretKeyCallback$Request.class"
     },
     {
+      "glob": "jakarta/servlet/Filter.class"
+    },
+    {
+      "glob": "jakarta/servlet/FilterConfig.class"
+    },
+    {
       "glob": "jakarta/servlet/FilterRegistration.class"
+    },
+    {
+      "glob": "jakarta/servlet/GenericFilter.class"
     },
     {
       "glob": "jakarta/servlet/GenericServlet.class"
@@ -2765,10 +2786,16 @@
       "glob": "jakarta/servlet/ServletConfig.class"
     },
     {
+      "glob": "jakarta/servlet/ServletContainerInitializer.class"
+    },
+    {
       "glob": "jakarta/servlet/ServletContext.class"
     },
     {
       "glob": "jakarta/servlet/ServletContextEvent.class"
+    },
+    {
+      "glob": "jakarta/servlet/ServletContextListener.class"
     },
     {
       "glob": "jakarta/servlet/ServletException.class"
@@ -2781,6 +2808,12 @@
     },
     {
       "glob": "jakarta/servlet/ServletRequestEvent.class"
+    },
+    {
+      "glob": "jakarta/servlet/ServletResponse.class"
+    },
+    {
+      "glob": "jakarta/servlet/ServletResponseWrapper.class"
     },
     {
       "glob": "jakarta/servlet/annotation/MultipartConfig.class"
@@ -2811,6 +2844,9 @@
     },
     {
       "glob": "jakarta/servlet/http/HttpSessionListener.class"
+    },
+    {
+      "glob": "jakarta/servlet/http/HttpUpgradeHandler.class"
     },
     {
       "glob": "jakarta/servlet/http/LocalStrings.properties"
@@ -4013,7 +4049,13 @@
       "glob": "org/apache/catalina/util/RateLimiter.class"
     },
     {
+      "glob": "org/apache/catalina/util/RateLimiterBase.class"
+    },
+    {
       "glob": "org/apache/catalina/util/ServerInfo.properties"
+    },
+    {
+      "glob": "org/apache/catalina/util/TimeBucketCounterBase.class"
     },
     {
       "glob": "org/apache/catalina/valves/AbstractAccessLogValve$ElapsedTimeElement$Style.class"
@@ -4086,6 +4128,9 @@
     },
     {
       "glob": "org/apache/coyote/http11/mbeans-descriptors.xml"
+    },
+    {
+      "glob": "org/apache/coyote/http11/upgrade/InternalHttpUpgradeHandler.class"
     },
     {
       "glob": "org/apache/coyote/http2/AbstractStream.class"
@@ -4205,6 +4250,9 @@
       "glob": "org/apache/juli/FileHandler.class"
     },
     {
+      "glob": "org/apache/juli/OneLineFormatter.class"
+    },
+    {
       "glob": "org/apache/juli/WebappProperties.class"
     },
     {
@@ -4227,6 +4275,9 @@
     },
     {
       "glob": "org/apache/tomcat/InstrumentableClassLoader.class"
+    },
+    {
+      "glob": "org/apache/tomcat/JarScannerCallback.class"
     },
     {
       "glob": "org/apache/tomcat/PeriodicEventListener.class"
@@ -4457,6 +4508,9 @@
       "glob": "org/apache/tomcat/websocket/Transformation.class"
     },
     {
+      "glob": "org/apache/tomcat/websocket/TransformationBuilder.class"
+    },
+    {
       "glob": "org/apache/tomcat/websocket/WsFrameBase$TerminalTransformation.class"
     },
     {
@@ -4532,9 +4586,6 @@
       "glob": "org/eclipse/jdt/internal/compiler/ast/BinaryExpression.class"
     },
     {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/ConstructorDeclaration.class"
-    },
-    {
       "glob": "org/eclipse/jdt/internal/compiler/ast/Expression.class"
     },
     {
@@ -4566,9 +4617,6 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/ast/NameReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/NullAnnotationMatching$CheckMode.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/ast/NumberLiteral.class"
@@ -4616,7 +4664,7 @@
       "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement$Node.class"
     },
     {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement$NodeVisitor.class"
+      "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement$SwitchTranslator.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement.class"
@@ -4626,6 +4674,12 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/ast/TypeDeclaration.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/ast/TypeOrLambda.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/ast/TypePattern.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/ast/TypeReference.class"
@@ -4643,10 +4697,7 @@
       "glob": "org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct.class"
     },
     {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$BasicAnnotationWalker.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$SingleMarkerAnnotation.class"
+      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$IMethodAnnotationWalker.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.class"
@@ -4659,9 +4710,6 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/codegen/Label.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/codegen/OperandStack.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation.class"
@@ -4769,9 +4817,6 @@
       "glob": "org/eclipse/jdt/internal/compiler/impl/ReferenceContext.class"
     },
     {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder$MethodHolder.class"
-    },
-    {
       "glob": "org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder.class"
     },
     {
@@ -4782,6 +4827,9 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/lookup/ConstraintFormula.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/lookup/HotSwappable.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/lookup/ImportBinding.class"
@@ -4853,9 +4901,6 @@
       "glob": "org/eclipse/jdt/internal/compiler/lookup/VariableBinding.class"
     },
     {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/IMarkdownCommentHelper.class"
-    },
-    {
       "glob": "org/eclipse/jdt/internal/compiler/parser/JavadocTagConstants.class"
     },
     {
@@ -4874,16 +4919,10 @@
       "glob": "org/eclipse/jdt/internal/compiler/parser/RecoveredStatement.class"
     },
     {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner$Goal.class"
-    },
-    {
       "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner$VanguardParser.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/TerminalTokens.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/problem/AbortType.class"
@@ -4896,9 +4935,6 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/tool/EclipseFileManager.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/tool/ModuleLocationHandler$LocationContainer.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/tool/ModuleLocationHandler$LocationWrapper.class"
@@ -4914,6 +4950,9 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/util/SuffixConstants.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/util/Util$Displayable.class"
     },
     {
       "glob": "org/graalvm/nativeimage/hosted/Feature.class"
