@@ -2126,6 +2126,9 @@
       "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadComponent.class"
     },
     {
+      "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadWithoutActionUrlComponent$FileHolder.class"
+    },
+    {
       "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadWithoutActionUrlComponent.class"
     },
     {
