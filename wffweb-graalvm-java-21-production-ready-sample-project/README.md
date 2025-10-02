@@ -1,4 +1,4 @@
-# wffweb demo app with wffweb-12.0.0 and GraalVM Java 21
+# wffweb demo app with wffweb-12.0.8 and GraalVM Java 21
 ##### Note: your system should have ~8GB free RAM to build native image and it may vary based on the project size.
 #### It contains sample code for url rewriting/routing, JWT token based authentication/authorization and configuration for multi node support for scaling.
 
