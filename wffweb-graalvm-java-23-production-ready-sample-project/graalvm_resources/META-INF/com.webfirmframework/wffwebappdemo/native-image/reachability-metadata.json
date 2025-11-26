@@ -1,43 +1,13 @@
 {
   "reflection": [
     {
-      "type": "[B"
+      "type": "boolean[]"
     },
     {
-      "type": "[C"
+      "type": "byte[]"
     },
     {
-      "type": "[D"
-    },
-    {
-      "type": "[F"
-    },
-    {
-      "type": "[I"
-    },
-    {
-      "type": "[J"
-    },
-    {
-      "type": "[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
-    },
-    {
-      "type": "[Lcom.fasterxml.jackson.databind.ser.Serializers;"
-    },
-    {
-      "type": "[Ljava.lang.String;"
-    },
-    {
-      "type": "[Ljavax.management.openmbean.CompositeData;"
-    },
-    {
-      "type": "[Lsun.security.pkcs.SignerInfo;"
-    },
-    {
-      "type": "[S"
-    },
-    {
-      "type": "[Z"
+      "type": "char[]"
     },
     {
       "type": "com.auth0.jwt.JWT"
@@ -64,6 +34,9 @@
       "type": "com.auth0.jwt.interfaces.Verification"
     },
     {
+      "type": "com.fasterxml.jackson.databind.deser.Deserializers[]"
+    },
+    {
       "type": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
       "methods": [
         {
@@ -71,6 +44,9 @@
           "parameterTypes": []
         }
       ]
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ser.Serializers[]"
     },
     {
       "type": "com.sun.crypto.provider.HmacCore$HmacSHA256",
@@ -107,6 +83,62 @@
     },
     {
       "type": "com.sun.management.VMOption"
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "boolean",
+            "boolean",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo[]",
+      "jniAccessible": true
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "java.util.List"
+          ]
+        },
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "java.util.List"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo[]",
+      "jniAccessible": true
     },
     {
       "type": "com.sun.management.internal.GarbageCollectorExtImpl"
@@ -245,7 +277,384 @@
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.TagNameConstants",
-      "allPublicFields": true
+      "allPublicFields": true,
+      "fields": [
+        {
+          "name": "A"
+        },
+        {
+          "name": "ABBR"
+        },
+        {
+          "name": "ADDRESS"
+        },
+        {
+          "name": "AREA"
+        },
+        {
+          "name": "ARTICLE"
+        },
+        {
+          "name": "ASIDE"
+        },
+        {
+          "name": "AUDIO"
+        },
+        {
+          "name": "B"
+        },
+        {
+          "name": "BASE"
+        },
+        {
+          "name": "BASEFONT"
+        },
+        {
+          "name": "BDI"
+        },
+        {
+          "name": "BDO"
+        },
+        {
+          "name": "BLOCKQUOTE"
+        },
+        {
+          "name": "BODY"
+        },
+        {
+          "name": "BR"
+        },
+        {
+          "name": "BUTTON"
+        },
+        {
+          "name": "CANVAS"
+        },
+        {
+          "name": "CAPTION"
+        },
+        {
+          "name": "CIRCLE"
+        },
+        {
+          "name": "CITE"
+        },
+        {
+          "name": "CODE"
+        },
+        {
+          "name": "COL"
+        },
+        {
+          "name": "COLGROUP"
+        },
+        {
+          "name": "DATA"
+        },
+        {
+          "name": "DATALIST"
+        },
+        {
+          "name": "DD"
+        },
+        {
+          "name": "DEL"
+        },
+        {
+          "name": "DETAILS"
+        },
+        {
+          "name": "DFN"
+        },
+        {
+          "name": "DIALOG"
+        },
+        {
+          "name": "DIV"
+        },
+        {
+          "name": "DL"
+        },
+        {
+          "name": "DT"
+        },
+        {
+          "name": "ELLIPSE"
+        },
+        {
+          "name": "EM"
+        },
+        {
+          "name": "EMBED"
+        },
+        {
+          "name": "FIELDSET"
+        },
+        {
+          "name": "FIGCAPTION"
+        },
+        {
+          "name": "FIGURE"
+        },
+        {
+          "name": "FOOTER"
+        },
+        {
+          "name": "FORM"
+        },
+        {
+          "name": "H1"
+        },
+        {
+          "name": "H2"
+        },
+        {
+          "name": "H3"
+        },
+        {
+          "name": "H4"
+        },
+        {
+          "name": "H5"
+        },
+        {
+          "name": "H6"
+        },
+        {
+          "name": "HEAD"
+        },
+        {
+          "name": "HEADER"
+        },
+        {
+          "name": "HGROUP"
+        },
+        {
+          "name": "HR"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "I"
+        },
+        {
+          "name": "IFRAME"
+        },
+        {
+          "name": "IMG"
+        },
+        {
+          "name": "INPUT"
+        },
+        {
+          "name": "INS"
+        },
+        {
+          "name": "KBD"
+        },
+        {
+          "name": "KEYGEN"
+        },
+        {
+          "name": "LABEL"
+        },
+        {
+          "name": "LEGEND"
+        },
+        {
+          "name": "LI"
+        },
+        {
+          "name": "LINE"
+        },
+        {
+          "name": "LINK"
+        },
+        {
+          "name": "MAIN"
+        },
+        {
+          "name": "MAP"
+        },
+        {
+          "name": "MARK"
+        },
+        {
+          "name": "MATH"
+        },
+        {
+          "name": "MENU"
+        },
+        {
+          "name": "MENUITEM"
+        },
+        {
+          "name": "META"
+        },
+        {
+          "name": "METER"
+        },
+        {
+          "name": "NAV"
+        },
+        {
+          "name": "NOSCRIPT"
+        },
+        {
+          "name": "OBJECT"
+        },
+        {
+          "name": "OL"
+        },
+        {
+          "name": "OPTGROUP"
+        },
+        {
+          "name": "OPTION"
+        },
+        {
+          "name": "OUTPUT"
+        },
+        {
+          "name": "P"
+        },
+        {
+          "name": "PARAM"
+        },
+        {
+          "name": "PATH"
+        },
+        {
+          "name": "PICTURE"
+        },
+        {
+          "name": "POLYGON"
+        },
+        {
+          "name": "POLYLINE"
+        },
+        {
+          "name": "PRE"
+        },
+        {
+          "name": "PROGRESS"
+        },
+        {
+          "name": "Q"
+        },
+        {
+          "name": "QFN"
+        },
+        {
+          "name": "RECT"
+        },
+        {
+          "name": "RP"
+        },
+        {
+          "name": "RT"
+        },
+        {
+          "name": "RUBY"
+        },
+        {
+          "name": "S"
+        },
+        {
+          "name": "SAMP"
+        },
+        {
+          "name": "SCRIPT"
+        },
+        {
+          "name": "SECTION"
+        },
+        {
+          "name": "SELECT"
+        },
+        {
+          "name": "SMALL"
+        },
+        {
+          "name": "SOURCE"
+        },
+        {
+          "name": "SPAN"
+        },
+        {
+          "name": "STRONG"
+        },
+        {
+          "name": "STYLE"
+        },
+        {
+          "name": "SUB"
+        },
+        {
+          "name": "SUMMARY"
+        },
+        {
+          "name": "SUP"
+        },
+        {
+          "name": "SVG"
+        },
+        {
+          "name": "TABLE"
+        },
+        {
+          "name": "TBODY"
+        },
+        {
+          "name": "TD"
+        },
+        {
+          "name": "TEMPLATE"
+        },
+        {
+          "name": "TEXT"
+        },
+        {
+          "name": "TEXTAREA"
+        },
+        {
+          "name": "TFOOT"
+        },
+        {
+          "name": "TH"
+        },
+        {
+          "name": "THEAD"
+        },
+        {
+          "name": "TIME"
+        },
+        {
+          "name": "TITLE_TAG"
+        },
+        {
+          "name": "TR"
+        },
+        {
+          "name": "TRACK"
+        },
+        {
+          "name": "U"
+        },
+        {
+          "name": "UL"
+        },
+        {
+          "name": "VAR"
+        },
+        {
+          "name": "VIDEO"
+        },
+        {
+          "name": "WBR"
+        }
+      ]
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.TitleTag"
@@ -258,7 +667,558 @@
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.attribute.AttributeNameConstants",
-      "allPublicFields": true
+      "allPublicFields": true,
+      "fields": [
+        {
+          "name": "ACCEPT"
+        },
+        {
+          "name": "ACCEPT_CHARSET"
+        },
+        {
+          "name": "ACCESSKEY"
+        },
+        {
+          "name": "ACTION"
+        },
+        {
+          "name": "ALIGN"
+        },
+        {
+          "name": "ALT"
+        },
+        {
+          "name": "ANIMATIONEND"
+        },
+        {
+          "name": "ANIMATIONITERATION"
+        },
+        {
+          "name": "ANIMATIONSTART"
+        },
+        {
+          "name": "ASYNC"
+        },
+        {
+          "name": "AUTOCOMPLETE"
+        },
+        {
+          "name": "AUTOFOCUS"
+        },
+        {
+          "name": "AUTOPLAY"
+        },
+        {
+          "name": "BORDER"
+        },
+        {
+          "name": "CELLPADDING"
+        },
+        {
+          "name": "CELLSPACING"
+        },
+        {
+          "name": "CHARSET"
+        },
+        {
+          "name": "CHECKED"
+        },
+        {
+          "name": "CLASS"
+        },
+        {
+          "name": "COLOR"
+        },
+        {
+          "name": "COLS"
+        },
+        {
+          "name": "COLSPAN"
+        },
+        {
+          "name": "CONTENT"
+        },
+        {
+          "name": "CONTENTEDITABLE"
+        },
+        {
+          "name": "CONTEXTMENU"
+        },
+        {
+          "name": "CONTROLS"
+        },
+        {
+          "name": "COORDS"
+        },
+        {
+          "name": "DATA"
+        },
+        {
+          "name": "DATETIME"
+        },
+        {
+          "name": "DEFAULT"
+        },
+        {
+          "name": "DEFER"
+        },
+        {
+          "name": "DIR"
+        },
+        {
+          "name": "DIRNAME"
+        },
+        {
+          "name": "DISABLED"
+        },
+        {
+          "name": "DOWNLOAD"
+        },
+        {
+          "name": "DRAGGABLE"
+        },
+        {
+          "name": "DROPZONE"
+        },
+        {
+          "name": "ENCTYPE"
+        },
+        {
+          "name": "FACE"
+        },
+        {
+          "name": "FOR"
+        },
+        {
+          "name": "FORM"
+        },
+        {
+          "name": "FORMACTION"
+        },
+        {
+          "name": "FORMENCTYPE"
+        },
+        {
+          "name": "FORMMETHOD"
+        },
+        {
+          "name": "FORMNOVALIDATE"
+        },
+        {
+          "name": "FORMTARGET"
+        },
+        {
+          "name": "HEADERS"
+        },
+        {
+          "name": "HEIGHT"
+        },
+        {
+          "name": "HIDDEN"
+        },
+        {
+          "name": "HIGH"
+        },
+        {
+          "name": "HREF"
+        },
+        {
+          "name": "HREFLANG"
+        },
+        {
+          "name": "HTTP_EQUIV"
+        },
+        {
+          "name": "ID"
+        },
+        {
+          "name": "ISMAP"
+        },
+        {
+          "name": "LANG"
+        },
+        {
+          "name": "LIST"
+        },
+        {
+          "name": "LOOP"
+        },
+        {
+          "name": "LOW"
+        },
+        {
+          "name": "MAX"
+        },
+        {
+          "name": "MAXLENGTH"
+        },
+        {
+          "name": "MEDIA"
+        },
+        {
+          "name": "METHOD"
+        },
+        {
+          "name": "MIN"
+        },
+        {
+          "name": "MINLENGTH"
+        },
+        {
+          "name": "MULTIPLE"
+        },
+        {
+          "name": "MUTED"
+        },
+        {
+          "name": "NAME"
+        },
+        {
+          "name": "NOHREF"
+        },
+        {
+          "name": "NONCE"
+        },
+        {
+          "name": "ONABORT"
+        },
+        {
+          "name": "ONAFTERPRINT"
+        },
+        {
+          "name": "ONBEFOREPRINT"
+        },
+        {
+          "name": "ONBEFOREUNLOAD"
+        },
+        {
+          "name": "ONBLUR"
+        },
+        {
+          "name": "ONCANPLAY"
+        },
+        {
+          "name": "ONCANPLAYTHROUGH"
+        },
+        {
+          "name": "ONCHANGE"
+        },
+        {
+          "name": "ONCLICK"
+        },
+        {
+          "name": "ONCONTEXTMENU"
+        },
+        {
+          "name": "ONCOPY"
+        },
+        {
+          "name": "ONCUT"
+        },
+        {
+          "name": "ONDBLCLICK"
+        },
+        {
+          "name": "ONDRAG"
+        },
+        {
+          "name": "ONDRAGEND"
+        },
+        {
+          "name": "ONDRAGENTER"
+        },
+        {
+          "name": "ONDRAGLEAVE"
+        },
+        {
+          "name": "ONDRAGOVER"
+        },
+        {
+          "name": "ONDRAGSTART"
+        },
+        {
+          "name": "ONDROP"
+        },
+        {
+          "name": "ONDURATIONCHANGE"
+        },
+        {
+          "name": "ONEMPTIED"
+        },
+        {
+          "name": "ONENDED"
+        },
+        {
+          "name": "ONERROR"
+        },
+        {
+          "name": "ONFOCUS"
+        },
+        {
+          "name": "ONFOCUSIN"
+        },
+        {
+          "name": "ONFOCUSOUT"
+        },
+        {
+          "name": "ONHASHCHANGE"
+        },
+        {
+          "name": "ONINPUT"
+        },
+        {
+          "name": "ONINVALID"
+        },
+        {
+          "name": "ONKEYDOWN"
+        },
+        {
+          "name": "ONKEYPRESS"
+        },
+        {
+          "name": "ONKEYUP"
+        },
+        {
+          "name": "ONLOAD"
+        },
+        {
+          "name": "ONLOADEDDATA"
+        },
+        {
+          "name": "ONLOADEDMETADATA"
+        },
+        {
+          "name": "ONLOADSTART"
+        },
+        {
+          "name": "ONMOUSEDOWN"
+        },
+        {
+          "name": "ONMOUSEENTER"
+        },
+        {
+          "name": "ONMOUSELEAVE"
+        },
+        {
+          "name": "ONMOUSEMOVE"
+        },
+        {
+          "name": "ONMOUSEOUT"
+        },
+        {
+          "name": "ONMOUSEOVER"
+        },
+        {
+          "name": "ONMOUSEUP"
+        },
+        {
+          "name": "ONOFFLINE"
+        },
+        {
+          "name": "ONONLINE"
+        },
+        {
+          "name": "ONPAGEHIDE"
+        },
+        {
+          "name": "ONPAGESHOW"
+        },
+        {
+          "name": "ONPASTE"
+        },
+        {
+          "name": "ONPAUSE"
+        },
+        {
+          "name": "ONPLAY"
+        },
+        {
+          "name": "ONPLAYING"
+        },
+        {
+          "name": "ONPOPSTATE"
+        },
+        {
+          "name": "ONPROGRESS"
+        },
+        {
+          "name": "ONRATECHANGE"
+        },
+        {
+          "name": "ONRESET"
+        },
+        {
+          "name": "ONRESIZE"
+        },
+        {
+          "name": "ONSCROLL"
+        },
+        {
+          "name": "ONSEARCH"
+        },
+        {
+          "name": "ONSEEKED"
+        },
+        {
+          "name": "ONSEEKING"
+        },
+        {
+          "name": "ONSELECT"
+        },
+        {
+          "name": "ONSHOW"
+        },
+        {
+          "name": "ONSTALLED"
+        },
+        {
+          "name": "ONSTORAGE"
+        },
+        {
+          "name": "ONSUBMIT"
+        },
+        {
+          "name": "ONSUSPEND"
+        },
+        {
+          "name": "ONTIMEUPDATE"
+        },
+        {
+          "name": "ONTOGGLE"
+        },
+        {
+          "name": "ONTOUCHCANCEL"
+        },
+        {
+          "name": "ONTOUCHEND"
+        },
+        {
+          "name": "ONTOUCHMOVE"
+        },
+        {
+          "name": "ONTOUCHSTART"
+        },
+        {
+          "name": "ONUNLOAD"
+        },
+        {
+          "name": "ONVOLUMECHANGE"
+        },
+        {
+          "name": "ONWAITING"
+        },
+        {
+          "name": "ONWHEEL"
+        },
+        {
+          "name": "OPEN"
+        },
+        {
+          "name": "OPTIMUM"
+        },
+        {
+          "name": "PATTERN"
+        },
+        {
+          "name": "PLACEHOLDER"
+        },
+        {
+          "name": "POSTER"
+        },
+        {
+          "name": "PRELOAD"
+        },
+        {
+          "name": "READONLY"
+        },
+        {
+          "name": "REL"
+        },
+        {
+          "name": "REQUIRED"
+        },
+        {
+          "name": "REV"
+        },
+        {
+          "name": "REVERSED"
+        },
+        {
+          "name": "ROLE"
+        },
+        {
+          "name": "ROWS"
+        },
+        {
+          "name": "ROWSPAN"
+        },
+        {
+          "name": "SANDBOX"
+        },
+        {
+          "name": "SCOPE"
+        },
+        {
+          "name": "SELECTED"
+        },
+        {
+          "name": "SHAPE"
+        },
+        {
+          "name": "SIZE"
+        },
+        {
+          "name": "SIZES"
+        },
+        {
+          "name": "SORTED"
+        },
+        {
+          "name": "SPELLCHECK"
+        },
+        {
+          "name": "SRC"
+        },
+        {
+          "name": "SRCSET"
+        },
+        {
+          "name": "STEP"
+        },
+        {
+          "name": "STYLE"
+        },
+        {
+          "name": "TABINDEX"
+        },
+        {
+          "name": "TARGET"
+        },
+        {
+          "name": "TITLE"
+        },
+        {
+          "name": "TRANSITIONEND"
+        },
+        {
+          "name": "TRANSLATE"
+        },
+        {
+          "name": "TYPE"
+        },
+        {
+          "name": "USEMAP"
+        },
+        {
+          "name": "VALUE"
+        },
+        {
+          "name": "WIDTH"
+        },
+        {
+          "name": "WRAP"
+        }
+      ]
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.attribute.Charset"
@@ -513,6 +1473,15 @@
       ]
     },
     {
+      "type": "double[]"
+    },
+    {
+      "type": "float[]"
+    },
+    {
+      "type": "int[]"
+    },
+    {
       "type": "jakarta.ejb.EJB"
     },
     {
@@ -607,9 +1576,18 @@
     },
     {
       "type": "java.lang.Boolean",
+      "jniAccessible": true,
       "fields": [
         {
           "name": "TYPE"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
         }
       ]
     },
@@ -693,6 +1671,9 @@
           "name": "TYPE"
         }
       ]
+    },
+    {
+      "type": "java.lang.String[]"
     },
     {
       "type": "java.lang.Thread",
@@ -875,6 +1856,18 @@
       ]
     },
     {
+      "type": "java.util.Arrays",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "asList",
+          "parameterTypes": [
+            "java.lang.Object[]"
+          ]
+        }
+      ]
+    },
+    {
       "type": "java.util.Date"
     },
     {
@@ -888,6 +1881,9 @@
           ]
         }
       ]
+    },
+    {
+      "type": "java.util.SequencedCollection"
     },
     {
       "type": "java.util.concurrent.Executors",
@@ -1012,10 +2008,16 @@
       "type": "javax.management.openmbean.CompositeData"
     },
     {
+      "type": "javax.management.openmbean.CompositeData[]"
+    },
+    {
       "type": "javax.management.openmbean.OpenMBeanOperationInfoSupport"
     },
     {
       "type": "javax.management.openmbean.TabularData"
+    },
+    {
+      "type": "javax.net.ssl.SSLParameters"
     },
     {
       "type": "javax.security.auth.Subject"
@@ -1079,6 +2081,9 @@
     },
     {
       "type": "jdk.management.jfr.SettingDescriptorInfo"
+    },
+    {
+      "type": "long[]"
     },
     {
       "type": "org.apache.catalina.Container",
@@ -1739,6 +2744,9 @@
       "type": "org.json.JSONObject"
     },
     {
+      "type": "short[]"
+    },
+    {
       "type": "sun.management.ClassLoadingImpl"
     },
     {
@@ -1761,6 +2769,39 @@
     },
     {
       "type": "sun.management.RuntimeImpl"
+    },
+    {
+      "type": "sun.management.VMManagementImpl",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "compTimeMonitoringSupport"
+        },
+        {
+          "name": "currentThreadCpuTimeSupport"
+        },
+        {
+          "name": "objectMonitorUsageSupport"
+        },
+        {
+          "name": "otherThreadCpuTimeSupport"
+        },
+        {
+          "name": "remoteDiagnosticCommandsSupport"
+        },
+        {
+          "name": "synchronizerUsageSupport"
+        },
+        {
+          "name": "threadAllocatedMemorySupport"
+        },
+        {
+          "name": "threadContentionMonitoringSupport"
+        }
+      ]
+    },
+    {
+      "type": "sun.security.pkcs.SignerInfo[]"
     },
     {
       "type": "sun.security.provider.MD5",
@@ -1986,111 +3027,27 @@
           ]
         }
       ]
-    }
-  ],
-  "jni": [
-    {
-      "type": "[Lcom.sun.management.internal.DiagnosticCommandArgumentInfo;"
     },
     {
-      "type": "[Lcom.sun.management.internal.DiagnosticCommandInfo;"
+      "type": "sun.text.resources.cldr.FormatData"
     },
     {
-      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "boolean",
-            "boolean",
-            "boolean",
-            "int"
-          ]
-        }
-      ]
+      "type": "sun.text.resources.cldr.FormatData_en"
     },
     {
-      "type": "com.sun.management.internal.DiagnosticCommandInfo",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "boolean",
-            "java.util.List"
-          ]
-        },
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "boolean",
-            "java.util.List"
-          ]
-        }
-      ]
+      "type": "sun.text.resources.cldr.FormatData_en_US"
     },
     {
-      "type": "java.lang.Boolean",
-      "methods": [
-        {
-          "name": "getBoolean",
-          "parameterTypes": [
-            "java.lang.String"
-          ]
-        }
-      ]
+      "type": "sun.util.resources.cldr.CalendarData"
     },
     {
-      "type": "java.util.Arrays",
-      "methods": [
-        {
-          "name": "asList",
-          "parameterTypes": [
-            "java.lang.Object[]"
-          ]
-        }
-      ]
+      "type": "sun.util.resources.cldr.TimeZoneNames"
     },
     {
-      "type": "sun.management.VMManagementImpl",
-      "fields": [
-        {
-          "name": "compTimeMonitoringSupport"
-        },
-        {
-          "name": "currentThreadCpuTimeSupport"
-        },
-        {
-          "name": "objectMonitorUsageSupport"
-        },
-        {
-          "name": "otherThreadCpuTimeSupport"
-        },
-        {
-          "name": "remoteDiagnosticCommandsSupport"
-        },
-        {
-          "name": "synchronizerUsageSupport"
-        },
-        {
-          "name": "threadAllocatedMemorySupport"
-        },
-        {
-          "name": "threadContentionMonitoringSupport"
-        }
-      ]
+      "type": "sun.util.resources.cldr.TimeZoneNames_en"
+    },
+    {
+      "type": "sun.util.resources.cldr.TimeZoneNames_en_US"
     }
   ]
 }
