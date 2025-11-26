@@ -1791,6 +1791,9 @@
       "type": "javax.management.openmbean.TabularData"
     },
     {
+      "type": "javax.net.ssl.SSLParameters"
+    },
+    {
       "type": "javax.security.auth.Subject"
     },
     {
@@ -5497,6 +5500,9 @@
       "glob": "org/apache/tomcat/util/compat/LocalStrings.properties"
     },
     {
+      "glob": "org/apache/tomcat/util/concurrent/LocalStrings.properties"
+    },
+    {
       "glob": "org/apache/tomcat/util/descriptor/LocalStrings.properties"
     },
     {
@@ -5788,6 +5794,9 @@
       "glob": "org/eclipse/jdt/internal/compiler/ast/NameReference.class"
     },
     {
+      "glob": "org/eclipse/jdt/internal/compiler/ast/NullAnnotationMatching$CheckMode.class"
+    },
+    {
       "glob": "org/eclipse/jdt/internal/compiler/ast/NumberLiteral.class"
     },
     {
@@ -5866,7 +5875,13 @@
       "glob": "org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct.class"
     },
     {
+      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$BasicAnnotationWalker.class"
+    },
+    {
       "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$IMethodAnnotationWalker.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$SingleMarkerAnnotation.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.class"
@@ -5879,6 +5894,9 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/codegen/Label.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/codegen/OperandStack.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation.class"
@@ -6022,6 +6040,9 @@
       "glob": "org/eclipse/jdt/internal/compiler/lookup/NestedTypeBinding.class"
     },
     {
+      "glob": "org/eclipse/jdt/internal/compiler/lookup/ParameterNonNullDefaultProvider.class"
+    },
+    {
       "glob": "org/eclipse/jdt/internal/compiler/lookup/ParameterizedMethodBinding.class"
     },
     {
@@ -6070,6 +6091,9 @@
       "glob": "org/eclipse/jdt/internal/compiler/lookup/VariableBinding.class"
     },
     {
+      "glob": "org/eclipse/jdt/internal/compiler/parser/IMarkdownCommentHelper.class"
+    },
+    {
       "glob": "org/eclipse/jdt/internal/compiler/parser/JavadocTagConstants.class"
     },
     {
@@ -6088,6 +6112,9 @@
       "glob": "org/eclipse/jdt/internal/compiler/parser/RecoveredStatement.class"
     },
     {
+      "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner$Goal.class"
+    },
+    {
       "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner$VanguardParser.class"
     },
     {
@@ -6104,6 +6131,9 @@
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/tool/EclipseFileManager.class"
+    },
+    {
+      "glob": "org/eclipse/jdt/internal/compiler/tool/ModuleLocationHandler$LocationContainer.class"
     },
     {
       "glob": "org/eclipse/jdt/internal/compiler/tool/ModuleLocationHandler$LocationWrapper.class"
@@ -7343,6 +7373,9 @@
     },
     {
       "bundle": "org.apache.tomcat.util.compat.LocalStrings"
+    },
+    {
+      "bundle": "org.apache.tomcat.util.concurrent.LocalStrings"
     },
     {
       "bundle": "org.apache.tomcat.util.descriptor.LocalStrings"

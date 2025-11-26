@@ -1,40 +1,13 @@
 {
   "reflection": [
     {
-      "type": "[B"
+      "type": "boolean[]"
     },
     {
-      "type": "[C"
+      "type": "byte[]"
     },
     {
-      "type": "[D"
-    },
-    {
-      "type": "[F"
-    },
-    {
-      "type": "[I"
-    },
-    {
-      "type": "[J"
-    },
-    {
-      "type": "[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
-    },
-    {
-      "type": "[Lcom.fasterxml.jackson.databind.ser.Serializers;"
-    },
-    {
-      "type": "[Ljava.lang.String;"
-    },
-    {
-      "type": "[Ljavax.management.openmbean.CompositeData;"
-    },
-    {
-      "type": "[S"
-    },
-    {
-      "type": "[Z"
+      "type": "char[]"
     },
     {
       "type": "com.auth0.jwt.JWT"
@@ -61,6 +34,9 @@
       "type": "com.auth0.jwt.interfaces.Verification"
     },
     {
+      "type": "com.fasterxml.jackson.databind.deser.Deserializers[]"
+    },
+    {
       "type": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
       "methods": [
         {
@@ -68,6 +44,9 @@
           "parameterTypes": []
         }
       ]
+    },
+    {
+      "type": "com.fasterxml.jackson.databind.ser.Serializers[]"
     },
     {
       "type": "com.sun.crypto.provider.HmacCore$HmacSHA512",
@@ -95,6 +74,49 @@
     },
     {
       "type": "com.sun.management.VMOption"
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "boolean",
+            "boolean",
+            "int"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo[]",
+      "jniAccessible": true
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "<init>",
+          "parameterTypes": [
+            "java.lang.String",
+            "java.lang.String",
+            "java.lang.String",
+            "boolean",
+            "java.util.List"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "com.sun.management.internal.DiagnosticCommandInfo[]",
+      "jniAccessible": true
     },
     {
       "type": "com.sun.management.internal.GarbageCollectorExtImpl"
@@ -233,7 +255,384 @@
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.TagNameConstants",
-      "allPublicFields": true
+      "allPublicFields": true,
+      "fields": [
+        {
+          "name": "A"
+        },
+        {
+          "name": "ABBR"
+        },
+        {
+          "name": "ADDRESS"
+        },
+        {
+          "name": "AREA"
+        },
+        {
+          "name": "ARTICLE"
+        },
+        {
+          "name": "ASIDE"
+        },
+        {
+          "name": "AUDIO"
+        },
+        {
+          "name": "B"
+        },
+        {
+          "name": "BASE"
+        },
+        {
+          "name": "BASEFONT"
+        },
+        {
+          "name": "BDI"
+        },
+        {
+          "name": "BDO"
+        },
+        {
+          "name": "BLOCKQUOTE"
+        },
+        {
+          "name": "BODY"
+        },
+        {
+          "name": "BR"
+        },
+        {
+          "name": "BUTTON"
+        },
+        {
+          "name": "CANVAS"
+        },
+        {
+          "name": "CAPTION"
+        },
+        {
+          "name": "CIRCLE"
+        },
+        {
+          "name": "CITE"
+        },
+        {
+          "name": "CODE"
+        },
+        {
+          "name": "COL"
+        },
+        {
+          "name": "COLGROUP"
+        },
+        {
+          "name": "DATA"
+        },
+        {
+          "name": "DATALIST"
+        },
+        {
+          "name": "DD"
+        },
+        {
+          "name": "DEL"
+        },
+        {
+          "name": "DETAILS"
+        },
+        {
+          "name": "DFN"
+        },
+        {
+          "name": "DIALOG"
+        },
+        {
+          "name": "DIV"
+        },
+        {
+          "name": "DL"
+        },
+        {
+          "name": "DT"
+        },
+        {
+          "name": "ELLIPSE"
+        },
+        {
+          "name": "EM"
+        },
+        {
+          "name": "EMBED"
+        },
+        {
+          "name": "FIELDSET"
+        },
+        {
+          "name": "FIGCAPTION"
+        },
+        {
+          "name": "FIGURE"
+        },
+        {
+          "name": "FOOTER"
+        },
+        {
+          "name": "FORM"
+        },
+        {
+          "name": "H1"
+        },
+        {
+          "name": "H2"
+        },
+        {
+          "name": "H3"
+        },
+        {
+          "name": "H4"
+        },
+        {
+          "name": "H5"
+        },
+        {
+          "name": "H6"
+        },
+        {
+          "name": "HEAD"
+        },
+        {
+          "name": "HEADER"
+        },
+        {
+          "name": "HGROUP"
+        },
+        {
+          "name": "HR"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "I"
+        },
+        {
+          "name": "IFRAME"
+        },
+        {
+          "name": "IMG"
+        },
+        {
+          "name": "INPUT"
+        },
+        {
+          "name": "INS"
+        },
+        {
+          "name": "KBD"
+        },
+        {
+          "name": "KEYGEN"
+        },
+        {
+          "name": "LABEL"
+        },
+        {
+          "name": "LEGEND"
+        },
+        {
+          "name": "LI"
+        },
+        {
+          "name": "LINE"
+        },
+        {
+          "name": "LINK"
+        },
+        {
+          "name": "MAIN"
+        },
+        {
+          "name": "MAP"
+        },
+        {
+          "name": "MARK"
+        },
+        {
+          "name": "MATH"
+        },
+        {
+          "name": "MENU"
+        },
+        {
+          "name": "MENUITEM"
+        },
+        {
+          "name": "META"
+        },
+        {
+          "name": "METER"
+        },
+        {
+          "name": "NAV"
+        },
+        {
+          "name": "NOSCRIPT"
+        },
+        {
+          "name": "OBJECT"
+        },
+        {
+          "name": "OL"
+        },
+        {
+          "name": "OPTGROUP"
+        },
+        {
+          "name": "OPTION"
+        },
+        {
+          "name": "OUTPUT"
+        },
+        {
+          "name": "P"
+        },
+        {
+          "name": "PARAM"
+        },
+        {
+          "name": "PATH"
+        },
+        {
+          "name": "PICTURE"
+        },
+        {
+          "name": "POLYGON"
+        },
+        {
+          "name": "POLYLINE"
+        },
+        {
+          "name": "PRE"
+        },
+        {
+          "name": "PROGRESS"
+        },
+        {
+          "name": "Q"
+        },
+        {
+          "name": "QFN"
+        },
+        {
+          "name": "RECT"
+        },
+        {
+          "name": "RP"
+        },
+        {
+          "name": "RT"
+        },
+        {
+          "name": "RUBY"
+        },
+        {
+          "name": "S"
+        },
+        {
+          "name": "SAMP"
+        },
+        {
+          "name": "SCRIPT"
+        },
+        {
+          "name": "SECTION"
+        },
+        {
+          "name": "SELECT"
+        },
+        {
+          "name": "SMALL"
+        },
+        {
+          "name": "SOURCE"
+        },
+        {
+          "name": "SPAN"
+        },
+        {
+          "name": "STRONG"
+        },
+        {
+          "name": "STYLE"
+        },
+        {
+          "name": "SUB"
+        },
+        {
+          "name": "SUMMARY"
+        },
+        {
+          "name": "SUP"
+        },
+        {
+          "name": "SVG"
+        },
+        {
+          "name": "TABLE"
+        },
+        {
+          "name": "TBODY"
+        },
+        {
+          "name": "TD"
+        },
+        {
+          "name": "TEMPLATE"
+        },
+        {
+          "name": "TEXT"
+        },
+        {
+          "name": "TEXTAREA"
+        },
+        {
+          "name": "TFOOT"
+        },
+        {
+          "name": "TH"
+        },
+        {
+          "name": "THEAD"
+        },
+        {
+          "name": "TIME"
+        },
+        {
+          "name": "TITLE_TAG"
+        },
+        {
+          "name": "TR"
+        },
+        {
+          "name": "TRACK"
+        },
+        {
+          "name": "U"
+        },
+        {
+          "name": "UL"
+        },
+        {
+          "name": "VAR"
+        },
+        {
+          "name": "VIDEO"
+        },
+        {
+          "name": "WBR"
+        }
+      ]
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.TitleTag"
@@ -246,7 +645,558 @@
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.attribute.AttributeNameConstants",
-      "allPublicFields": true
+      "allPublicFields": true,
+      "fields": [
+        {
+          "name": "ACCEPT"
+        },
+        {
+          "name": "ACCEPT_CHARSET"
+        },
+        {
+          "name": "ACCESSKEY"
+        },
+        {
+          "name": "ACTION"
+        },
+        {
+          "name": "ALIGN"
+        },
+        {
+          "name": "ALT"
+        },
+        {
+          "name": "ANIMATIONEND"
+        },
+        {
+          "name": "ANIMATIONITERATION"
+        },
+        {
+          "name": "ANIMATIONSTART"
+        },
+        {
+          "name": "ASYNC"
+        },
+        {
+          "name": "AUTOCOMPLETE"
+        },
+        {
+          "name": "AUTOFOCUS"
+        },
+        {
+          "name": "AUTOPLAY"
+        },
+        {
+          "name": "BORDER"
+        },
+        {
+          "name": "CELLPADDING"
+        },
+        {
+          "name": "CELLSPACING"
+        },
+        {
+          "name": "CHARSET"
+        },
+        {
+          "name": "CHECKED"
+        },
+        {
+          "name": "CLASS"
+        },
+        {
+          "name": "COLOR"
+        },
+        {
+          "name": "COLS"
+        },
+        {
+          "name": "COLSPAN"
+        },
+        {
+          "name": "CONTENT"
+        },
+        {
+          "name": "CONTENTEDITABLE"
+        },
+        {
+          "name": "CONTEXTMENU"
+        },
+        {
+          "name": "CONTROLS"
+        },
+        {
+          "name": "COORDS"
+        },
+        {
+          "name": "DATA"
+        },
+        {
+          "name": "DATETIME"
+        },
+        {
+          "name": "DEFAULT"
+        },
+        {
+          "name": "DEFER"
+        },
+        {
+          "name": "DIR"
+        },
+        {
+          "name": "DIRNAME"
+        },
+        {
+          "name": "DISABLED"
+        },
+        {
+          "name": "DOWNLOAD"
+        },
+        {
+          "name": "DRAGGABLE"
+        },
+        {
+          "name": "DROPZONE"
+        },
+        {
+          "name": "ENCTYPE"
+        },
+        {
+          "name": "FACE"
+        },
+        {
+          "name": "FOR"
+        },
+        {
+          "name": "FORM"
+        },
+        {
+          "name": "FORMACTION"
+        },
+        {
+          "name": "FORMENCTYPE"
+        },
+        {
+          "name": "FORMMETHOD"
+        },
+        {
+          "name": "FORMNOVALIDATE"
+        },
+        {
+          "name": "FORMTARGET"
+        },
+        {
+          "name": "HEADERS"
+        },
+        {
+          "name": "HEIGHT"
+        },
+        {
+          "name": "HIDDEN"
+        },
+        {
+          "name": "HIGH"
+        },
+        {
+          "name": "HREF"
+        },
+        {
+          "name": "HREFLANG"
+        },
+        {
+          "name": "HTTP_EQUIV"
+        },
+        {
+          "name": "ID"
+        },
+        {
+          "name": "ISMAP"
+        },
+        {
+          "name": "LANG"
+        },
+        {
+          "name": "LIST"
+        },
+        {
+          "name": "LOOP"
+        },
+        {
+          "name": "LOW"
+        },
+        {
+          "name": "MAX"
+        },
+        {
+          "name": "MAXLENGTH"
+        },
+        {
+          "name": "MEDIA"
+        },
+        {
+          "name": "METHOD"
+        },
+        {
+          "name": "MIN"
+        },
+        {
+          "name": "MINLENGTH"
+        },
+        {
+          "name": "MULTIPLE"
+        },
+        {
+          "name": "MUTED"
+        },
+        {
+          "name": "NAME"
+        },
+        {
+          "name": "NOHREF"
+        },
+        {
+          "name": "NONCE"
+        },
+        {
+          "name": "ONABORT"
+        },
+        {
+          "name": "ONAFTERPRINT"
+        },
+        {
+          "name": "ONBEFOREPRINT"
+        },
+        {
+          "name": "ONBEFOREUNLOAD"
+        },
+        {
+          "name": "ONBLUR"
+        },
+        {
+          "name": "ONCANPLAY"
+        },
+        {
+          "name": "ONCANPLAYTHROUGH"
+        },
+        {
+          "name": "ONCHANGE"
+        },
+        {
+          "name": "ONCLICK"
+        },
+        {
+          "name": "ONCONTEXTMENU"
+        },
+        {
+          "name": "ONCOPY"
+        },
+        {
+          "name": "ONCUT"
+        },
+        {
+          "name": "ONDBLCLICK"
+        },
+        {
+          "name": "ONDRAG"
+        },
+        {
+          "name": "ONDRAGEND"
+        },
+        {
+          "name": "ONDRAGENTER"
+        },
+        {
+          "name": "ONDRAGLEAVE"
+        },
+        {
+          "name": "ONDRAGOVER"
+        },
+        {
+          "name": "ONDRAGSTART"
+        },
+        {
+          "name": "ONDROP"
+        },
+        {
+          "name": "ONDURATIONCHANGE"
+        },
+        {
+          "name": "ONEMPTIED"
+        },
+        {
+          "name": "ONENDED"
+        },
+        {
+          "name": "ONERROR"
+        },
+        {
+          "name": "ONFOCUS"
+        },
+        {
+          "name": "ONFOCUSIN"
+        },
+        {
+          "name": "ONFOCUSOUT"
+        },
+        {
+          "name": "ONHASHCHANGE"
+        },
+        {
+          "name": "ONINPUT"
+        },
+        {
+          "name": "ONINVALID"
+        },
+        {
+          "name": "ONKEYDOWN"
+        },
+        {
+          "name": "ONKEYPRESS"
+        },
+        {
+          "name": "ONKEYUP"
+        },
+        {
+          "name": "ONLOAD"
+        },
+        {
+          "name": "ONLOADEDDATA"
+        },
+        {
+          "name": "ONLOADEDMETADATA"
+        },
+        {
+          "name": "ONLOADSTART"
+        },
+        {
+          "name": "ONMOUSEDOWN"
+        },
+        {
+          "name": "ONMOUSEENTER"
+        },
+        {
+          "name": "ONMOUSELEAVE"
+        },
+        {
+          "name": "ONMOUSEMOVE"
+        },
+        {
+          "name": "ONMOUSEOUT"
+        },
+        {
+          "name": "ONMOUSEOVER"
+        },
+        {
+          "name": "ONMOUSEUP"
+        },
+        {
+          "name": "ONOFFLINE"
+        },
+        {
+          "name": "ONONLINE"
+        },
+        {
+          "name": "ONPAGEHIDE"
+        },
+        {
+          "name": "ONPAGESHOW"
+        },
+        {
+          "name": "ONPASTE"
+        },
+        {
+          "name": "ONPAUSE"
+        },
+        {
+          "name": "ONPLAY"
+        },
+        {
+          "name": "ONPLAYING"
+        },
+        {
+          "name": "ONPOPSTATE"
+        },
+        {
+          "name": "ONPROGRESS"
+        },
+        {
+          "name": "ONRATECHANGE"
+        },
+        {
+          "name": "ONRESET"
+        },
+        {
+          "name": "ONRESIZE"
+        },
+        {
+          "name": "ONSCROLL"
+        },
+        {
+          "name": "ONSEARCH"
+        },
+        {
+          "name": "ONSEEKED"
+        },
+        {
+          "name": "ONSEEKING"
+        },
+        {
+          "name": "ONSELECT"
+        },
+        {
+          "name": "ONSHOW"
+        },
+        {
+          "name": "ONSTALLED"
+        },
+        {
+          "name": "ONSTORAGE"
+        },
+        {
+          "name": "ONSUBMIT"
+        },
+        {
+          "name": "ONSUSPEND"
+        },
+        {
+          "name": "ONTIMEUPDATE"
+        },
+        {
+          "name": "ONTOGGLE"
+        },
+        {
+          "name": "ONTOUCHCANCEL"
+        },
+        {
+          "name": "ONTOUCHEND"
+        },
+        {
+          "name": "ONTOUCHMOVE"
+        },
+        {
+          "name": "ONTOUCHSTART"
+        },
+        {
+          "name": "ONUNLOAD"
+        },
+        {
+          "name": "ONVOLUMECHANGE"
+        },
+        {
+          "name": "ONWAITING"
+        },
+        {
+          "name": "ONWHEEL"
+        },
+        {
+          "name": "OPEN"
+        },
+        {
+          "name": "OPTIMUM"
+        },
+        {
+          "name": "PATTERN"
+        },
+        {
+          "name": "PLACEHOLDER"
+        },
+        {
+          "name": "POSTER"
+        },
+        {
+          "name": "PRELOAD"
+        },
+        {
+          "name": "READONLY"
+        },
+        {
+          "name": "REL"
+        },
+        {
+          "name": "REQUIRED"
+        },
+        {
+          "name": "REV"
+        },
+        {
+          "name": "REVERSED"
+        },
+        {
+          "name": "ROLE"
+        },
+        {
+          "name": "ROWS"
+        },
+        {
+          "name": "ROWSPAN"
+        },
+        {
+          "name": "SANDBOX"
+        },
+        {
+          "name": "SCOPE"
+        },
+        {
+          "name": "SELECTED"
+        },
+        {
+          "name": "SHAPE"
+        },
+        {
+          "name": "SIZE"
+        },
+        {
+          "name": "SIZES"
+        },
+        {
+          "name": "SORTED"
+        },
+        {
+          "name": "SPELLCHECK"
+        },
+        {
+          "name": "SRC"
+        },
+        {
+          "name": "SRCSET"
+        },
+        {
+          "name": "STEP"
+        },
+        {
+          "name": "STYLE"
+        },
+        {
+          "name": "TABINDEX"
+        },
+        {
+          "name": "TARGET"
+        },
+        {
+          "name": "TITLE"
+        },
+        {
+          "name": "TRANSITIONEND"
+        },
+        {
+          "name": "TRANSLATE"
+        },
+        {
+          "name": "TYPE"
+        },
+        {
+          "name": "USEMAP"
+        },
+        {
+          "name": "VALUE"
+        },
+        {
+          "name": "WIDTH"
+        },
+        {
+          "name": "WRAP"
+        }
+      ]
     },
     {
       "type": "com.webfirmframework.wffweb.tag.html.attribute.Charset"
@@ -414,6 +1364,15 @@
       "type": "com.webfirmframework.wffweb.util.URIUtil"
     },
     {
+      "type": "com.webfirmframework.wffweb.wffbm.data.BMValueType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.ValueValueType"
+    },
+    {
+      "type": "com.webfirmframework.wffweb.wffbm.data.WffBMArray"
+    },
+    {
       "type": "com.webfirmframework.wffweb.wffbm.data.WffBMByteArray"
     },
     {
@@ -490,6 +1449,15 @@
           ]
         }
       ]
+    },
+    {
+      "type": "double[]"
+    },
+    {
+      "type": "float[]"
+    },
+    {
+      "type": "int[]"
     },
     {
       "type": "jakarta.ejb.EJB"
@@ -586,9 +1554,18 @@
     },
     {
       "type": "java.lang.Boolean",
+      "jniAccessible": true,
       "fields": [
         {
           "name": "TYPE"
+        }
+      ],
+      "methods": [
+        {
+          "name": "getBoolean",
+          "parameterTypes": [
+            "java.lang.String"
+          ]
         }
       ]
     },
@@ -674,6 +1651,9 @@
       ]
     },
     {
+      "type": "java.lang.String[]"
+    },
+    {
       "type": "java.lang.Thread"
     },
     {
@@ -756,6 +1736,18 @@
       ]
     },
     {
+      "type": "java.util.Arrays",
+      "jniAccessible": true,
+      "methods": [
+        {
+          "name": "asList",
+          "parameterTypes": [
+            "java.lang.Object[]"
+          ]
+        }
+      ]
+    },
+    {
       "type": "java.util.Date"
     },
     {
@@ -816,10 +1808,16 @@
       "type": "javax.management.openmbean.CompositeData"
     },
     {
+      "type": "javax.management.openmbean.CompositeData[]"
+    },
+    {
       "type": "javax.management.openmbean.OpenMBeanOperationInfoSupport"
     },
     {
       "type": "javax.management.openmbean.TabularData"
+    },
+    {
+      "type": "javax.net.ssl.SSLParameters"
     },
     {
       "type": "javax.security.auth.Subject"
@@ -847,6 +1845,9 @@
     },
     {
       "type": "jdk.management.jfr.SettingDescriptorInfo"
+    },
+    {
+      "type": "long[]"
     },
     {
       "type": "org.apache.catalina.Container"
@@ -1366,6 +2367,9 @@
       "type": "org.ietf.jgss.GSSName"
     },
     {
+      "type": "short[]"
+    },
+    {
       "type": "sun.management.ClassLoadingImpl"
     },
     {
@@ -1388,6 +2392,36 @@
     },
     {
       "type": "sun.management.RuntimeImpl"
+    },
+    {
+      "type": "sun.management.VMManagementImpl",
+      "jniAccessible": true,
+      "fields": [
+        {
+          "name": "compTimeMonitoringSupport"
+        },
+        {
+          "name": "currentThreadCpuTimeSupport"
+        },
+        {
+          "name": "objectMonitorUsageSupport"
+        },
+        {
+          "name": "otherThreadCpuTimeSupport"
+        },
+        {
+          "name": "remoteDiagnosticCommandsSupport"
+        },
+        {
+          "name": "synchronizerUsageSupport"
+        },
+        {
+          "name": "threadAllocatedMemorySupport"
+        },
+        {
+          "name": "threadContentionMonitoringSupport"
+        }
+      ]
     },
     {
       "type": "sun.security.provider.MD5",
@@ -1567,4866 +2601,27 @@
           ]
         }
       ]
-    }
-  ],
-  "resources": [
-    {
-      "glob": "META-INF/services/jakarta.servlet.ServletContainerInitializer"
-    },
-    {
-      "glob": "META-INF/services/jakarta.websocket.server.ServerEndpointConfig$Configurator"
-    },
-    {
-      "glob": "META-INF/services/java.lang.System$LoggerFinder"
-    },
-    {
-      "glob": "META-INF/services/java.net.spi.URLStreamHandlerProvider"
-    },
-    {
-      "glob": "META-INF/services/java.nio.channels.spi.SelectorProvider"
-    },
-    {
-      "glob": "META-INF/services/java.time.zone.ZoneRulesProvider"
-    },
-    {
-      "glob": "META-INF/services/java.util.spi.ResourceBundleControlProvider"
-    },
-    {
-      "glob": "META-INF/services/javax.xml.parsers.SAXParserFactory"
-    },
-    {
-      "glob": "META-INF/services/org.apache.juli.logging.Log"
-    },
-    {
-      "glob": "com/auth0/jwt/JWT.class"
-    },
-    {
-      "glob": "com/auth0/jwt/JWTCreator$Builder.class"
-    },
-    {
-      "glob": "com/auth0/jwt/algorithms/Algorithm.class"
-    },
-    {
-      "glob": "com/auth0/jwt/exceptions/InvalidClaimException.class"
-    },
-    {
-      "glob": "com/auth0/jwt/exceptions/JWTCreationException.class"
-    },
-    {
-      "glob": "com/auth0/jwt/exceptions/JWTVerificationException.class"
-    },
-    {
-      "glob": "com/auth0/jwt/impl/ClaimsSerializer.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/Claim.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/DecodedJWT.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/ECDSAKeyProvider.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/Header.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/JWTPartsParser.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/JWTVerifier.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/KeyProvider.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/Payload.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/RSAKeyProvider.class"
-    },
-    {
-      "glob": "com/auth0/jwt/interfaces/Verification.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/JacksonException.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/JsonFactory.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/JsonGenerator.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/JsonParser.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/JsonProcessingException.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/JsonStreamContext.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/ObjectCodec.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/TSFBuilder.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/TokenStreamFactory.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/TreeCodec.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/TreeNode.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/Versioned.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/async/NonBlockingInputFeeder.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/base/ParserMinimalBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/exc/StreamReadException.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/exc/StreamWriteException.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/filter/TokenFilter.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/format/InputAccessor$Std.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/format/InputAccessor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/io/CharacterEscapes.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/json/async/NonBlockingJsonParserBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/json/async/NonBlockingUtf8JsonParserBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/type/ResolvedType.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/type/TypeReference.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/util/DefaultPrettyPrinter$Indenter.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/util/DefaultPrettyPrinter$NopIndenter.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/util/Instantiatable.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/util/JacksonFeature.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/util/JsonGeneratorDelegate.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/core/util/JsonParserDelegate.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/BeanProperty.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/InjectableValues.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/JsonDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/JsonSerializable$Base.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/JsonSerializable.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/JsonSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/KeyDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/PropertyNamingStrategies$NamingBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/PropertyNamingStrategy$PropertyNamingStrategyBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/PropertyNamingStrategy$SnakeCaseStrategy.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/PropertyNamingStrategy$UpperCamelCaseStrategy.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/PropertyNamingStrategy.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/cfg/ConfigFeature.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/cfg/ConfigOverride.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/cfg/ContextAttributes.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/cfg/MapperConfig.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/cfg/MapperConfigBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/BeanDeserializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/ContextualDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/DefaultDeserializationContext.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/DeserializerFactory.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/Deserializers.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/NullValueProvider.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/ResolvableDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/SettableAnyProperty.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/SettableBeanProperty.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/ValueInstantiator$Gettable.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/ValueInstantiator.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/ValueInstantiators.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/impl/PropertyValue.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/impl/ReadableObjectId$Referring.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/CollectionDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/ContainerDeserializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/DateDeserializers$DateBasedDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/FromStringDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/NumberDeserializers$PrimitiveOrWrapperDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/PrimitiveArrayDeserializers.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/ReferenceTypeDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/StdDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/StdKeyDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/deser/std/StdScalarDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/exc/MismatchedInputException.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/exc/PropertyBindingException.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ext/DOMDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/AccessorNamingStrategy.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/AnnotatedMember.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/AnnotatedWithParams.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/AnnotationCollector.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/ClassIntrospector$MixInResolver.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/ClassIntrospector.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/CollectorBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/ConcreteBeanPropertyBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/DefaultAccessorNamingStrategy.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/NopAnnotationIntrospector.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/POJOPropertyBuilder$WithMember.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/TypeResolutionContext.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/introspect/VisibilityChecker.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonAnyFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonArrayFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonBooleanFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWithSerializerProvider.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitorWrapper.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonIntegerFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonMapFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonNullFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonNumberFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonObjectFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonStringFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonValueFormatVisitor$Base.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonFormatVisitors/JsonValueFormatVisitor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsonschema/SchemaAware.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$NameMatcher.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/BasicPolymorphicTypeValidator$TypeMatcher.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator$Base.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/PolymorphicTypeValidator.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/TypeResolverBuilder.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeDeserializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/impl/AsPropertyTypeSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/impl/StdTypeResolverBuilder.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/impl/TypeDeserializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/impl/TypeIdResolverBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/jsontype/impl/TypeSerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/node/BaseJsonNode.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/node/ContainerNode.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/node/JsonNodeCreator.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/node/NodeCursor.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/node/NumericNode.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/node/ValueNode.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/ContextualSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/PropertyWriter.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/ResolvableSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/SerializerFactory.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/Serializers$Base.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/Serializers.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/impl/PropertySerializerMap.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/impl/SimpleBeanPropertyFilter.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/ArraySerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/StaticListSerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/StdArraySerializers$TypedPrimitiveArraySerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/StdScalarSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/StdSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/ToEmptyObjectSerializer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/ser/std/ToStringSerializerBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/type/SimpleType.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/type/TypeBase.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/Annotations.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/Converter.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/LookupCache.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/NameTransformer.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/Named.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/PrimitiveArrayBuilder.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/ViewMatcher.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/internal/LinkedDeque$AbstractLinkedIterator.class"
-    },
-    {
-      "glob": "com/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap$DrainStatus.class"
-    },
-    {
-      "glob": "com/sun/org/apache/xerces/internal/jaxp/SAXParserFactoryImpl.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/common/GlobalSTC.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/common/NavigationURI.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/AddItemComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/ItemPriceHistoryChartComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/LoginComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/RealtimeClock.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/RealtimeServerLogComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadWithoutActionUrlComponent$FileHolder.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/SampleFilesUploadWithoutActionUrlComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/UserAccountComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/ViewItem.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/component/ViewItemsComponent.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/css/Bootstrap5CssClass.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/css/CssClass.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/layout/CustomServerMethod.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/layout/IndexPageLayout.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/model/DocumentModel.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/template/SampleTemplate1.class"
-    },
-    {
-      "glob": "com/webfirmframework/ui/page/template/SampleTemplate2.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/PushFailedException.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/WffError.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/WffRuntimeException.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/common/URIEvent.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/css/core/CssProperty.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/css/file/CssFileBlock.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/data/AbstractBean.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/data/Bean.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/informer/StateChangeInformer.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/security/object/SecurityObject.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/WffClasses.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/jsWorkAround.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffAsync.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffBMCRUIDUtil.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffBMClientEvents.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffBMUtil.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffClientCRUDUtil.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffClientEvents.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffClientMethods.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffGlobal.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffServerMethods.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffTagUtil.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/internal/server/page/js/wffWS.js"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonArrayType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonBooleanValueType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonNullValueType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonNumberValueType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonObjectType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonParser$Builder.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonParser.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonPart.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/json/JsonStringValueType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/BrowserPage.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/BrowserPageContext.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/BrowserPageSession.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/ExternalDriveClientTasksWrapperQueue.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/HeartbeatManager.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/LocalStorage$Item.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/LocalStorage.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/PayloadProcessor.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/WebSocketOpenedRecord.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/WebSocketPushListener.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/server/page/action/BrowserPageAction.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/core/AbstractJsObject.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/core/AbstractTagBase.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/core/TagBase.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/AbstractHtml.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/Body.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/Br.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/DocType.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/H1.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/H2.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/H3.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/H6.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/Hr.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/Html.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/SharedTagContent$ChangeEvent.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/SharedTagContent$Content.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/SharedTagContent$ContentChangeListener.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/SharedTagContent$ContentFormatter.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/SharedTagContent.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/TagEvent.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/TitleTag.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/URIStateSwitch.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/WhenURIProperties.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Charset.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Defer.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/For.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Href.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Name.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Rel.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Role.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Src.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Target.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Type.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/Value.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/core/AbstractAttribute.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/event/EventAttribute.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/event/ServerMethod$Event.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/event/ServerMethod.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/event/form/OnSubmit.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/event/mouse/OnClick.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/global/ClassAttribute.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/global/Id.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/global/Style.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attribute/listener/AttributeValueChangeListener.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/attributewff/CustomAttribute.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/formatting/Pre.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/formsandinputs/Button.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/formsandinputs/Form.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/formsandinputs/Input.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/formsandinputs/Label.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/attribute/Content.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/attribute/Placeholder.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/attribute/Required.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/attribute/global/DataAttribute.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/attribute/global/Hidden.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/AudioAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/DetailsAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/DialogAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/EmbedAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/MenuAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/MeterAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/RectAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/SourceAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/TimeAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/TrackAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/html5/identifier/VideoAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/AAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/AreaAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/BaseAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/BaseFontAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/BooleanAttribute.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/ButtonAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/FormAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/GlobalAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/IFrameAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/ImgAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/InputAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/LabelAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/LinkAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/MapTagAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/MetaAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/ObjectTagAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/OlAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/OptionAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/ScriptAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/StyleAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/TableAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/TdAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/TextAreaAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/identifier/ThAttributable.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/links/A.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/links/Link.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/listener/ParentGainedListener$Event.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/listener/ParentGainedListener.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/listener/ParentLostListener$Event.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/listener/ParentLostListener.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/metainfo/Head.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/metainfo/Meta.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/programming/Script.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/stylesandsemantics/Div.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/stylesandsemantics/Span.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/tables/TBody.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/tables/THead.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/tables/Table.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/tables/Td.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/tables/Th.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/html/tables/Tr.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/htmlwff/NoTag.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/htmlwff/TagContent.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/tag/repository/TagRepository.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/ByteBufferUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/ParsedURI.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/Slice.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/StringUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/TagCompressedWffBMBytesParser.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/URIUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/util/WffBinaryMessageUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/view/HtmlView.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/wffbm/data/WffBMByteArray.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/wffbm/data/WffBMObject.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffweb/wffbm/data/WffData.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/AppUtilities.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/CookieUtil$InvalidLoginIdException.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/CookieUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/FileUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/MultiInstanceTokenUtil$ParsedPayloadAndClaims.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/MultiInstanceTokenUtil.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebcommon/UploadedFilesData.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/AppSettings.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/page/IndexPage.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/server/constants/ServerConstants.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/server/servlet/FileUploadServlet.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/server/servlet/HeartBeatServlet.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/server/servlet/IndexPageServlet.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/server/session/listener/SessionListener.class"
-    },
-    {
-      "glob": "com/webfirmframework/wffwebconfig/server/ws/WSServerForIndexPage.class"
-    },
-    {
-      "glob": "conf/Tomcat/localhost/context.xml.default"
-    },
-    {
-      "glob": "conf/Tomcat/localhost/web.xml.default"
-    },
-    {
-      "glob": "conf/context.xml"
-    },
-    {
-      "glob": "jakarta/el/CompositeELResolver.class"
-    },
-    {
-      "glob": "jakarta/el/ELContext.class"
-    },
-    {
-      "glob": "jakarta/el/ELException.class"
-    },
-    {
-      "glob": "jakarta/el/ELResolver.class"
-    },
-    {
-      "glob": "jakarta/el/Expression.class"
-    },
-    {
-      "glob": "jakarta/el/FunctionMapper.class"
-    },
-    {
-      "glob": "jakarta/el/MethodExpression.class"
-    },
-    {
-      "glob": "jakarta/el/MethodNotFoundException.class"
-    },
-    {
-      "glob": "jakarta/el/PropertyNotFoundException.class"
-    },
-    {
-      "glob": "jakarta/el/PropertyNotWritableException.class"
-    },
-    {
-      "glob": "jakarta/el/Util$Wrapper.class"
-    },
-    {
-      "glob": "jakarta/el/ValueExpression.class"
-    },
-    {
-      "glob": "jakarta/el/VariableMapper.class"
-    },
-    {
-      "glob": "jakarta/mail/Authenticator.class"
-    },
-    {
-      "glob": "jakarta/security/auth/message/callback/PrivateKeyCallback$Request.class"
-    },
-    {
-      "glob": "jakarta/security/auth/message/callback/SecretKeyCallback$Request.class"
-    },
-    {
-      "glob": "jakarta/servlet/Filter.class"
-    },
-    {
-      "glob": "jakarta/servlet/FilterConfig.class"
-    },
-    {
-      "glob": "jakarta/servlet/FilterRegistration.class"
-    },
-    {
-      "glob": "jakarta/servlet/GenericFilter.class"
-    },
-    {
-      "glob": "jakarta/servlet/GenericServlet.class"
-    },
-    {
-      "glob": "jakarta/servlet/LocalStrings.properties"
-    },
-    {
-      "glob": "jakarta/servlet/LocalStrings_en.properties"
-    },
-    {
-      "glob": "jakarta/servlet/LocalStrings_en_US.properties"
-    },
-    {
-      "glob": "jakarta/servlet/Registration$Dynamic.class"
-    },
-    {
-      "glob": "jakarta/servlet/Registration.class"
-    },
-    {
-      "glob": "jakarta/servlet/Servlet.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletConfig.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletContainerInitializer.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletContext.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletContextEvent.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletContextListener.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletException.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletOutputStream.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletRegistration.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletRequestEvent.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletResponse.class"
-    },
-    {
-      "glob": "jakarta/servlet/ServletResponseWrapper.class"
-    },
-    {
-      "glob": "jakarta/servlet/annotation/MultipartConfig.class"
-    },
-    {
-      "glob": "jakarta/servlet/annotation/WebListener.class"
-    },
-    {
-      "glob": "jakarta/servlet/annotation/WebServlet.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/Cookie.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpServlet.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpServletRequest.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpServletResponse.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpServletResponseWrapper.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpSessionEvent.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpSessionListener.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/HttpUpgradeHandler.class"
-    },
-    {
-      "glob": "jakarta/servlet/http/LocalStrings.properties"
-    },
-    {
-      "glob": "jakarta/servlet/http/LocalStrings_en.properties"
-    },
-    {
-      "glob": "jakarta/servlet/http/LocalStrings_en_US.properties"
-    },
-    {
-      "glob": "jakarta/servlet/http/Part.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/JspPage.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/el/ImplicitObjectELResolver$Scope.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/el/ImplicitObjectELResolver$ScopeMap.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/tagext/IterationTag.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/tagext/JspTag.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/tagext/Tag.class"
-    },
-    {
-      "glob": "jakarta/servlet/jsp/tagext/TagSupport.class"
-    },
-    {
-      "glob": "jakarta/servlet/resources/XMLSchema.dtd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/datatypes.dtd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/j2ee_1_4.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/j2ee_web_services_1_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/j2ee_web_services_client_1_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jakartaee_10.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jakartaee_11.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jakartaee_9.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jakartaee_web_services_2_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jakartaee_web_services_client_2_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_5.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_6.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_7.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_8.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_web_services_1_2.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_web_services_1_3.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_web_services_1_4.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_web_services_client_1_2.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_web_services_client_1_3.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/javaee_web_services_client_1_4.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_2_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_2_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_2_2.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_2_3.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_3_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_3_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/jsp_4_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_2_2.dtd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_2_3.dtd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_2_4.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_2_5.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_3_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_3_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_4_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_5_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_6_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-app_6_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-common_3_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-common_3_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-common_4_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-common_5_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-common_6_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-common_6_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-fragment_3_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-fragment_3_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-fragment_4_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-fragment_5_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-fragment_6_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-fragment_6_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_1_1.dtd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_1_2.dtd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_2_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_2_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_3_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_3_1.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/web-jsptaglibrary_4_0.xsd"
-    },
-    {
-      "glob": "jakarta/servlet/resources/xml.xsd"
-    },
-    {
-      "glob": "jakarta/websocket/ClientEndpointConfig$Configurator.class"
-    },
-    {
-      "glob": "jakarta/websocket/Decoder.class"
-    },
-    {
-      "glob": "jakarta/websocket/Encoder.class"
-    },
-    {
-      "glob": "jakarta/websocket/EndpointConfig.class"
-    },
-    {
-      "glob": "jakarta/websocket/HandshakeResponse.class"
-    },
-    {
-      "glob": "jakarta/websocket/MessageHandler.class"
-    },
-    {
-      "glob": "jakarta/websocket/OnClose.class"
-    },
-    {
-      "glob": "jakarta/websocket/OnError.class"
-    },
-    {
-      "glob": "jakarta/websocket/OnMessage.class"
-    },
-    {
-      "glob": "jakarta/websocket/OnOpen.class"
-    },
-    {
-      "glob": "jakarta/websocket/RemoteEndpoint$Basic.class"
-    },
-    {
-      "glob": "jakarta/websocket/RemoteEndpoint.class"
-    },
-    {
-      "glob": "jakarta/websocket/Session.class"
-    },
-    {
-      "glob": "jakarta/websocket/server/HandshakeRequest.class"
-    },
-    {
-      "glob": "jakarta/websocket/server/ServerEndpoint.class"
-    },
-    {
-      "glob": "jakarta/websocket/server/ServerEndpointConfig$Configurator.class"
-    },
-    {
-      "glob": "jakarta/websocket/server/ServerEndpointConfig.class"
-    },
-    {
-      "glob": "java/beans/PropertyChangeListener.class"
-    },
-    {
-      "glob": "java/io/BufferedReader.class"
-    },
-    {
-      "glob": "java/io/ByteArrayOutputStream.class"
-    },
-    {
-      "glob": "java/io/CharConversionException.class"
-    },
-    {
-      "glob": "java/io/Closeable.class"
-    },
-    {
-      "glob": "java/io/DataInput.class"
-    },
-    {
-      "glob": "java/io/Externalizable.class"
-    },
-    {
-      "glob": "java/io/FilenameFilter.class"
-    },
-    {
-      "glob": "java/io/FilterInputStream.class"
-    },
-    {
-      "glob": "java/io/FilterOutputStream.class"
-    },
-    {
-      "glob": "java/io/Flushable.class"
-    },
-    {
-      "glob": "java/io/IOException.class"
-    },
-    {
-      "glob": "java/io/InputStream.class"
-    },
-    {
-      "glob": "java/io/ObjectInput.class"
-    },
-    {
-      "glob": "java/io/ObjectInputStream.class"
-    },
-    {
-      "glob": "java/io/ObjectStreamConstants.class"
-    },
-    {
-      "glob": "java/io/OutputStream.class"
-    },
-    {
-      "glob": "java/io/PrintStream.class"
-    },
-    {
-      "glob": "java/io/PrintWriter.class"
-    },
-    {
-      "glob": "java/io/Reader.class"
-    },
-    {
-      "glob": "java/io/Serializable.class"
-    },
-    {
-      "glob": "java/io/Writer.class"
-    },
-    {
-      "glob": "java/lang/Appendable.class"
-    },
-    {
-      "glob": "java/lang/AutoCloseable.class"
-    },
-    {
-      "glob": "java/lang/Boolean.class"
-    },
-    {
-      "glob": "java/lang/CharSequence.class"
-    },
-    {
-      "glob": "java/lang/Class.class"
-    },
-    {
-      "glob": "java/lang/ClassLoader.class"
-    },
-    {
-      "glob": "java/lang/Cloneable.class"
-    },
-    {
-      "glob": "java/lang/Comparable.class"
-    },
-    {
-      "glob": "java/lang/Enum.class"
-    },
-    {
-      "glob": "java/lang/Error.class"
-    },
-    {
-      "glob": "java/lang/Exception.class"
-    },
-    {
-      "glob": "java/lang/IllegalArgumentException.class"
-    },
-    {
-      "glob": "java/lang/IllegalStateException.class"
-    },
-    {
-      "glob": "java/lang/Integer.class"
-    },
-    {
-      "glob": "java/lang/Iterable.class"
-    },
-    {
-      "glob": "java/lang/LinkageError.class"
-    },
-    {
-      "glob": "java/lang/Long.class"
-    },
-    {
-      "glob": "java/lang/Math.class"
-    },
-    {
-      "glob": "java/lang/NumberFormatException.class"
-    },
-    {
-      "glob": "java/lang/Object.class"
-    },
-    {
-      "glob": "java/lang/Readable.class"
-    },
-    {
-      "glob": "java/lang/Record.class"
-    },
-    {
-      "glob": "java/lang/Runnable.class"
-    },
-    {
-      "glob": "java/lang/RuntimeException.class"
-    },
-    {
-      "glob": "java/lang/String.class"
-    },
-    {
-      "glob": "java/lang/System.class"
-    },
-    {
-      "glob": "java/lang/Thread.class"
-    },
-    {
-      "glob": "java/lang/ThreadLocal.class"
-    },
-    {
-      "glob": "java/lang/Throwable.class"
-    },
-    {
-      "glob": "java/lang/UnsatisfiedLinkError.class"
-    },
-    {
-      "glob": "java/lang/constant/Constable.class"
-    },
-    {
-      "glob": "java/lang/invoke/LambdaMetafactory.class"
-    },
-    {
-      "glob": "java/lang/invoke/StringConcatFactory.class"
-    },
-    {
-      "glob": "java/lang/ref/Reference.class"
-    },
-    {
-      "glob": "java/lang/ref/WeakReference.class"
-    },
-    {
-      "glob": "java/lang/reflect/InvocationHandler.class"
-    },
-    {
-      "glob": "java/lang/reflect/Type.class"
-    },
-    {
-      "glob": "java/lang/runtime/ObjectMethods.class"
-    },
-    {
-      "glob": "java/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "java/net/JarURLConnection.class"
-    },
-    {
-      "glob": "java/net/URLClassLoader.class"
-    },
-    {
-      "glob": "java/net/URLConnection.class"
-    },
-    {
-      "glob": "java/net/URLEncoder.class"
-    },
-    {
-      "glob": "java/net/URLStreamHandler.class"
-    },
-    {
-      "glob": "java/net/URLStreamHandlerFactory.class"
-    },
-    {
-      "glob": "java/nio/ByteBuffer.class"
-    },
-    {
-      "glob": "java/nio/CharBuffer.class"
-    },
-    {
-      "glob": "java/nio/channels/AsynchronousByteChannel.class"
-    },
-    {
-      "glob": "java/nio/channels/AsynchronousChannel.class"
-    },
-    {
-      "glob": "java/nio/channels/ByteChannel.class"
-    },
-    {
-      "glob": "java/nio/channels/Channel.class"
-    },
-    {
-      "glob": "java/nio/channels/CompletionHandler.class"
-    },
-    {
-      "glob": "java/nio/channels/GatheringByteChannel.class"
-    },
-    {
-      "glob": "java/nio/channels/ReadableByteChannel.class"
-    },
-    {
-      "glob": "java/nio/channels/ScatteringByteChannel.class"
-    },
-    {
-      "glob": "java/nio/channels/WritableByteChannel.class"
-    },
-    {
-      "glob": "java/nio/charset/Charset.class"
-    },
-    {
-      "glob": "java/nio/charset/CharsetEncoder.class"
-    },
-    {
-      "glob": "java/nio/charset/StandardCharsets.class"
-    },
-    {
-      "glob": "java/nio/file/FileVisitor.class"
-    },
-    {
-      "glob": "java/nio/file/SimpleFileVisitor.class"
-    },
-    {
-      "glob": "java/security/GeneralSecurityException.class"
-    },
-    {
-      "glob": "java/security/Principal.class"
-    },
-    {
-      "glob": "java/security/PrivilegedAction.class"
-    },
-    {
-      "glob": "java/security/PrivilegedExceptionAction.class"
-    },
-    {
-      "glob": "java/security/SecureClassLoader.class"
-    },
-    {
-      "glob": "java/security/cert/Certificate.class"
-    },
-    {
-      "glob": "java/security/cert/X509Certificate.class"
-    },
-    {
-      "glob": "java/security/cert/X509Extension.class"
-    },
-    {
-      "glob": "java/text/DateFormat.class"
-    },
-    {
-      "glob": "java/text/Format.class"
-    },
-    {
-      "glob": "java/time/Clock.class"
-    },
-    {
-      "glob": "java/time/Instant.class"
-    },
-    {
-      "glob": "java/time/LocalDate.class"
-    },
-    {
-      "glob": "java/time/ZoneId.class"
-    },
-    {
-      "glob": "java/time/ZonedDateTime.class"
-    },
-    {
-      "glob": "java/time/format/DateTimeFormatter.class"
-    },
-    {
-      "glob": "java/util/AbstractCollection.class"
-    },
-    {
-      "glob": "java/util/AbstractList.class"
-    },
-    {
-      "glob": "java/util/AbstractMap$SimpleEntry.class"
-    },
-    {
-      "glob": "java/util/AbstractMap.class"
-    },
-    {
-      "glob": "java/util/AbstractQueue.class"
-    },
-    {
-      "glob": "java/util/AbstractSequentialList.class"
-    },
-    {
-      "glob": "java/util/AbstractSet.class"
-    },
-    {
-      "glob": "java/util/ArrayList.class"
-    },
-    {
-      "glob": "java/util/Arrays.class"
-    },
-    {
-      "glob": "java/util/Base64$Decoder.class"
-    },
-    {
-      "glob": "java/util/Base64.class"
-    },
-    {
-      "glob": "java/util/Collection.class"
-    },
-    {
-      "glob": "java/util/Collections.class"
-    },
-    {
-      "glob": "java/util/Comparator.class"
-    },
-    {
-      "glob": "java/util/Deque.class"
-    },
-    {
-      "glob": "java/util/Dictionary.class"
-    },
-    {
-      "glob": "java/util/Enumeration.class"
-    },
-    {
-      "glob": "java/util/EventListener.class"
-    },
-    {
-      "glob": "java/util/EventObject.class"
-    },
-    {
-      "glob": "java/util/HashMap.class"
-    },
-    {
-      "glob": "java/util/HashSet.class"
-    },
-    {
-      "glob": "java/util/Hashtable.class"
-    },
-    {
-      "glob": "java/util/Iterator.class"
-    },
-    {
-      "glob": "java/util/LinkedHashMap.class"
-    },
-    {
-      "glob": "java/util/LinkedHashSet.class"
-    },
-    {
-      "glob": "java/util/LinkedList.class"
-    },
-    {
-      "glob": "java/util/List.class"
-    },
-    {
-      "glob": "java/util/Map$Entry.class"
-    },
-    {
-      "glob": "java/util/Map.class"
-    },
-    {
-      "glob": "java/util/Objects.class"
-    },
-    {
-      "glob": "java/util/Optional.class"
-    },
-    {
-      "glob": "java/util/Properties.class"
-    },
-    {
-      "glob": "java/util/Queue.class"
-    },
-    {
-      "glob": "java/util/Random.class"
-    },
-    {
-      "glob": "java/util/RandomAccess.class"
-    },
-    {
-      "glob": "java/util/SequencedCollection.class"
-    },
-    {
-      "glob": "java/util/SequencedMap.class"
-    },
-    {
-      "glob": "java/util/SequencedSet.class"
-    },
-    {
-      "glob": "java/util/Set.class"
-    },
-    {
-      "glob": "java/util/StringTokenizer.class"
-    },
-    {
-      "glob": "java/util/UUID.class"
-    },
-    {
-      "glob": "java/util/concurrent/AbstractExecutorService.class"
-    },
-    {
-      "glob": "java/util/concurrent/BlockingQueue.class"
-    },
-    {
-      "glob": "java/util/concurrent/Callable.class"
-    },
-    {
-      "glob": "java/util/concurrent/ConcurrentHashMap.class"
-    },
-    {
-      "glob": "java/util/concurrent/ConcurrentMap.class"
-    },
-    {
-      "glob": "java/util/concurrent/Executor.class"
-    },
-    {
-      "glob": "java/util/concurrent/ExecutorService.class"
-    },
-    {
-      "glob": "java/util/concurrent/Executors.class"
-    },
-    {
-      "glob": "java/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory.class"
-    },
-    {
-      "glob": "java/util/concurrent/ForkJoinWorkerThread.class"
-    },
-    {
-      "glob": "java/util/concurrent/Future.class"
-    },
-    {
-      "glob": "java/util/concurrent/LinkedBlockingQueue.class"
-    },
-    {
-      "glob": "java/util/concurrent/RejectedExecutionHandler.class"
-    },
-    {
-      "glob": "java/util/concurrent/ScheduledExecutorService.class"
-    },
-    {
-      "glob": "java/util/concurrent/ScheduledFuture.class"
-    },
-    {
-      "glob": "java/util/concurrent/ThreadFactory.class"
-    },
-    {
-      "glob": "java/util/concurrent/ThreadPoolExecutor.class"
-    },
-    {
-      "glob": "java/util/concurrent/TimeUnit.class"
-    },
-    {
-      "glob": "java/util/concurrent/atomic/AtomicInteger.class"
-    },
-    {
-      "glob": "java/util/concurrent/atomic/AtomicReference.class"
-    },
-    {
-      "glob": "java/util/concurrent/locks/AbstractOwnableSynchronizer.class"
-    },
-    {
-      "glob": "java/util/concurrent/locks/AbstractQueuedSynchronizer.class"
-    },
-    {
-      "glob": "java/util/concurrent/locks/Lock.class"
-    },
-    {
-      "glob": "java/util/concurrent/locks/ReadWriteLock.class"
-    },
-    {
-      "glob": "java/util/concurrent/locks/StampedLock.class"
-    },
-    {
-      "glob": "java/util/concurrent/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "java/util/function/BiFunction.class"
-    },
-    {
-      "glob": "java/util/function/Consumer.class"
-    },
-    {
-      "glob": "java/util/function/Function.class"
-    },
-    {
-      "glob": "java/util/function/Predicate.class"
-    },
-    {
-      "glob": "java/util/function/Supplier.class"
-    },
-    {
-      "glob": "java/util/jar/JarInputStream.class"
-    },
-    {
-      "glob": "java/util/logging/Formatter.class"
-    },
-    {
-      "glob": "java/util/logging/Handler.class"
-    },
-    {
-      "glob": "java/util/logging/LogManager.class"
-    },
-    {
-      "glob": "java/util/logging/Logger.class"
-    },
-    {
-      "glob": "java/util/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "java/util/stream/Stream.class"
-    },
-    {
-      "glob": "java/util/zip/InflaterInputStream.class"
-    },
-    {
-      "glob": "java/util/zip/ZipConstants.class"
-    },
-    {
-      "glob": "java/util/zip/ZipInputStream.class"
-    },
-    {
-      "glob": "javax/annotation/processing/Filer.class"
-    },
-    {
-      "glob": "javax/annotation/processing/Messager.class"
-    },
-    {
-      "glob": "javax/annotation/processing/ProcessingEnvironment.class"
-    },
-    {
-      "glob": "javax/annotation/processing/RoundEnvironment.class"
-    },
-    {
-      "glob": "javax/lang/model/AnnotatedConstruct.class"
-    },
-    {
-      "glob": "javax/lang/model/element/AnnotationMirror.class"
-    },
-    {
-      "glob": "javax/lang/model/element/AnnotationValue.class"
-    },
-    {
-      "glob": "javax/lang/model/element/Element.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ExecutableElement.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement$Directive.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement$ExportsDirective.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement$OpensDirective.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement$ProvidesDirective.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement$RequiresDirective.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement$UsesDirective.class"
-    },
-    {
-      "glob": "javax/lang/model/element/ModuleElement.class"
-    },
-    {
-      "glob": "javax/lang/model/element/Name.class"
-    },
-    {
-      "glob": "javax/lang/model/element/PackageElement.class"
-    },
-    {
-      "glob": "javax/lang/model/element/Parameterizable.class"
-    },
-    {
-      "glob": "javax/lang/model/element/QualifiedNameable.class"
-    },
-    {
-      "glob": "javax/lang/model/element/RecordComponentElement.class"
-    },
-    {
-      "glob": "javax/lang/model/element/TypeElement.class"
-    },
-    {
-      "glob": "javax/lang/model/element/TypeParameterElement.class"
-    },
-    {
-      "glob": "javax/lang/model/element/VariableElement.class"
-    },
-    {
-      "glob": "javax/lang/model/type/ArrayType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/DeclaredType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/ErrorType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/ExecutableType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/IntersectionType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/NoType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/NullType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/PrimitiveType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/ReferenceType.class"
-    },
-    {
-      "glob": "javax/lang/model/type/TypeMirror.class"
-    },
-    {
-      "glob": "javax/lang/model/type/TypeVariable.class"
-    },
-    {
-      "glob": "javax/lang/model/type/WildcardType.class"
-    },
-    {
-      "glob": "javax/lang/model/util/Elements.class"
-    },
-    {
-      "glob": "javax/lang/model/util/Types.class"
-    },
-    {
-      "glob": "javax/management/DynamicMBean.class"
-    },
-    {
-      "glob": "javax/management/MBeanRegistration.class"
-    },
-    {
-      "glob": "javax/management/MBeanServer.class"
-    },
-    {
-      "glob": "javax/management/MBeanServerConnection.class"
-    },
-    {
-      "glob": "javax/management/NotificationBroadcaster.class"
-    },
-    {
-      "glob": "javax/management/NotificationEmitter.class"
-    },
-    {
-      "glob": "javax/management/NotificationFilter.class"
-    },
-    {
-      "glob": "javax/management/NotificationListener.class"
-    },
-    {
-      "glob": "javax/management/modelmbean/ModelMBeanNotificationBroadcaster.class"
-    },
-    {
-      "glob": "javax/naming/Context.class"
-    },
-    {
-      "glob": "javax/naming/NameParser.class"
-    },
-    {
-      "glob": "javax/naming/NamingEnumeration.class"
-    },
-    {
-      "glob": "javax/naming/Reference.class"
-    },
-    {
-      "glob": "javax/naming/spi/InitialContextFactory.class"
-    },
-    {
-      "glob": "javax/naming/spi/ObjectFactory.class"
-    },
-    {
-      "glob": "javax/net/ssl/KeyManager.class"
-    },
-    {
-      "glob": "javax/net/ssl/SSLEngine.class"
-    },
-    {
-      "glob": "javax/net/ssl/SSLSession.class"
-    },
-    {
-      "glob": "javax/net/ssl/SSLSessionContext.class"
-    },
-    {
-      "glob": "javax/net/ssl/X509ExtendedKeyManager.class"
-    },
-    {
-      "glob": "javax/net/ssl/X509KeyManager.class"
-    },
-    {
-      "glob": "javax/security/auth/callback/Callback.class"
-    },
-    {
-      "glob": "javax/security/auth/callback/CallbackHandler.class"
-    },
-    {
-      "glob": "javax/security/auth/login/LoginException.class"
-    },
-    {
-      "glob": "javax/security/auth/spi/LoginModule.class"
-    },
-    {
-      "glob": "javax/tools/Diagnostic.class"
-    },
-    {
-      "glob": "javax/tools/FileObject.class"
-    },
-    {
-      "glob": "javax/tools/ForwardingFileObject.class"
-    },
-    {
-      "glob": "javax/tools/ForwardingJavaFileObject.class"
-    },
-    {
-      "glob": "javax/tools/JavaCompiler$CompilationTask.class"
-    },
-    {
-      "glob": "javax/tools/JavaCompiler.class"
-    },
-    {
-      "glob": "javax/tools/JavaFileManager$Location.class"
-    },
-    {
-      "glob": "javax/tools/JavaFileManager.class"
-    },
-    {
-      "glob": "javax/tools/JavaFileObject.class"
-    },
-    {
-      "glob": "javax/tools/OptionChecker.class"
-    },
-    {
-      "glob": "javax/tools/SimpleJavaFileObject.class"
-    },
-    {
-      "glob": "javax/tools/StandardJavaFileManager.class"
-    },
-    {
-      "glob": "javax/tools/Tool.class"
-    },
-    {
-      "glob": "org/apache/catalina/Contained.class"
-    },
-    {
-      "glob": "org/apache/catalina/Lifecycle.class"
-    },
-    {
-      "glob": "org/apache/catalina/authenticator/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/authenticator/jaspic/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/authenticator/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/connector/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/connector/Request$SpecialAttributeAdapter.class"
-    },
-    {
-      "glob": "org/apache/catalina/connector/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/core/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/core/RestrictedFilters.properties"
-    },
-    {
-      "glob": "org/apache/catalina/core/RestrictedListeners.properties"
-    },
-    {
-      "glob": "org/apache/catalina/core/RestrictedServlets.properties"
-    },
-    {
-      "glob": "org/apache/catalina/core/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/deploy/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/deploy/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/filters/CsrfPreventionFilter$NonceCache.class"
-    },
-    {
-      "glob": "org/apache/catalina/filters/CsrfPreventionFilterBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/filters/FilterBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/filters/RequestFilter.class"
-    },
-    {
-      "glob": "org/apache/catalina/filters/RestCsrfPreventionFilter$RestCsrfPreventionStrategy.class"
-    },
-    {
-      "glob": "org/apache/catalina/ha/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/loader/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/loader/WebappClassLoaderBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/loader/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/manager/ManagerServlet.class"
-    },
-    {
-      "glob": "org/apache/catalina/manager/host/HostManagerServlet.class"
-    },
-    {
-      "glob": "org/apache/catalina/mapper/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/mapper/Mapper$MapElement.class"
-    },
-    {
-      "glob": "org/apache/catalina/mapper/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/mbeans/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/mbeans/SparseUserDatabaseMBean.class"
-    },
-    {
-      "glob": "org/apache/catalina/mbeans/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/realm/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/realm/MemoryRealm.class"
-    },
-    {
-      "glob": "org/apache/catalina/realm/RealmBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/realm/X509UsernameRetriever.class"
-    },
-    {
-      "glob": "org/apache/catalina/realm/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/servlets/DefaultServlet.class"
-    },
-    {
-      "glob": "org/apache/catalina/servlets/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/servlets/WebdavServlet$PropertyStore.class"
-    },
-    {
-      "glob": "org/apache/catalina/session/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/session/PersistentManagerBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/session/StoreBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/session/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/startup/Authenticators.properties"
-    },
-    {
-      "glob": "org/apache/catalina/startup/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/startup/MimeTypeMappings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/startup/UserDatabase.class"
-    },
-    {
-      "glob": "org/apache/catalina/startup/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/storeconfig/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/users/SparseUserDatabase.class"
-    },
-    {
-      "glob": "org/apache/catalina/users/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/util/CharsetMapperDefault.properties"
-    },
-    {
-      "glob": "org/apache/catalina/util/LifecycleBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/util/LifecycleMBeanBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/util/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/util/RateLimiter.class"
-    },
-    {
-      "glob": "org/apache/catalina/util/RateLimiterBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/util/ServerInfo.properties"
-    },
-    {
-      "glob": "org/apache/catalina/util/TimeBucketCounterBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/valves/AbstractAccessLogValve$ElapsedTimeElement$Style.class"
-    },
-    {
-      "glob": "org/apache/catalina/valves/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/valves/RequestFilterValve.class"
-    },
-    {
-      "glob": "org/apache/catalina/valves/ValveBase.class"
-    },
-    {
-      "glob": "org/apache/catalina/valves/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/catalina/valves/rewrite/RewriteMap.class"
-    },
-    {
-      "glob": "org/apache/catalina/valves/rewrite/Substitution$SubstitutionElement.class"
-    },
-    {
-      "glob": "org/apache/catalina/webresources/AbstractResource.class"
-    },
-    {
-      "glob": "org/apache/catalina/webresources/AbstractResourceSet.class"
-    },
-    {
-      "glob": "org/apache/catalina/webresources/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/catalina/webresources/StandardRoot.class"
-    },
-    {
-      "glob": "org/apache/catalina/webresources/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/coyote/AbstractProcessorLight.class"
-    },
-    {
-      "glob": "org/apache/coyote/ActionHook.class"
-    },
-    {
-      "glob": "org/apache/coyote/Adapter.class"
-    },
-    {
-      "glob": "org/apache/coyote/AsyncContextCallback.class"
-    },
-    {
-      "glob": "org/apache/coyote/BadRequestException.class"
-    },
-    {
-      "glob": "org/apache/coyote/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/coyote/Processor.class"
-    },
-    {
-      "glob": "org/apache/coyote/ProtocolHandler.class"
-    },
-    {
-      "glob": "org/apache/coyote/http11/HttpOutputBuffer.class"
-    },
-    {
-      "glob": "org/apache/coyote/http11/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/coyote/http11/filters/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/coyote/http11/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/coyote/http11/upgrade/InternalHttpUpgradeHandler.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/AbstractStream.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/HpackDecoder$HeaderEmitter.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/HpackEncoder$HpackHeaderFunction.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/HpackEncoder$TableEntry.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2Exception.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2Parser$Input.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2Parser$Output.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2Parser.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2UpgradeHandler$HeaderFrameBuffers.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2UpgradeHandler$PingManager.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Http2UpgradeHandler.class"
-    },
-    {
-      "glob": "org/apache/coyote/http2/Stream$StreamInputBuffer.class"
-    },
-    {
-      "glob": "org/apache/coyote/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/el/lang/ELArithmetic.class"
-    },
-    {
-      "glob": "org/apache/el/parser/BooleanNode.class"
-    },
-    {
-      "glob": "org/apache/el/parser/ELParserConstants.class"
-    },
-    {
-      "glob": "org/apache/el/parser/ELParserTreeConstants.class"
-    },
-    {
-      "glob": "org/apache/el/parser/Node.class"
-    },
-    {
-      "glob": "org/apache/el/parser/NodeVisitor.class"
-    },
-    {
-      "glob": "org/apache/el/parser/SimpleNode.class"
-    },
-    {
-      "glob": "org/apache/el/stream/Stream$OpIterator.class"
-    },
-    {
-      "glob": "org/apache/jasper/Options.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/Compiler.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/ELNode$Visitor.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/ELNode.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/ELParser$Token.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/ErrorHandler.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/Node$ScriptingElement.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/Node$Visitor.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/Node.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/ServletWriter.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/TagConstants.class"
-    },
-    {
-      "glob": "org/apache/jasper/compiler/tagplugin/TagPluginContext.class"
-    },
-    {
-      "glob": "org/apache/jasper/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/jasper/servlet/JasperInitializer.class"
-    },
-    {
-      "glob": "org/apache/jasper/servlet/JspServlet.class"
-    },
-    {
-      "glob": "org/apache/jasper/servlet/TldScanner.class"
-    },
-    {
-      "glob": "org/apache/jasper/servlet/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/juli/FileHandler.class"
-    },
-    {
-      "glob": "org/apache/juli/OneLineFormatter.class"
-    },
-    {
-      "glob": "org/apache/juli/WebappProperties.class"
-    },
-    {
-      "glob": "org/apache/juli/logging/Log.class"
-    },
-    {
-      "glob": "org/apache/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/naming/factory/FactoryBase.class"
-    },
-    {
-      "glob": "org/apache/naming/factory/ResourceLinkFactory.class"
-    },
-    {
-      "glob": "org/apache/tomcat/ContextBind.class"
-    },
-    {
-      "glob": "org/apache/tomcat/InstanceManager.class"
-    },
-    {
-      "glob": "org/apache/tomcat/InstrumentableClassLoader.class"
-    },
-    {
-      "glob": "org/apache/tomcat/JarScannerCallback.class"
-    },
-    {
-      "glob": "org/apache/tomcat/PeriodicEventListener.class"
-    },
-    {
-      "glob": "org/apache/tomcat/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/tomcat/util/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/bcel/classfile/ElementValue.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/buf/ByteChunk$ByteInputChannel.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/buf/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/buf/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/LocalStrings.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/LocalStrings_en.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/LocalStrings_en.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/LocalStrings_en_US.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/LocalStrings_en_US.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/collections/SynchronizedStack.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/compat/JreCompat.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/compat/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/Injectable.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/NamingResources.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/ResourceBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/SessionConfig.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/XmlEncodingBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/descriptor/web/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/AbstractObjectCreationFactory.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/CallMethodRule.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/CallParamRule.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/Digester$EntityResolverWrapper.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/DocumentProperties$Charset.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/ObjectCreateRule.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/ObjectCreationFactory.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/Rule.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/digester/RuleSet.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/file/ConfigurationSource.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/fileupload/FileItemHeadersSupport.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/fileupload/FileUploadBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/fileupload/ThresholdingOutputStream.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/fileupload/impl/SizeException.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/fileupload/util/Closeable.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/fileupload/util/LimitedInputStream.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/parser/HttpHeaderParser$HeaderDataSource.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/parser/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/parser/StructuredField$SfItem.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/http/parser/StructuredField$SfListMember.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/json/JSONParserConstants.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/BaseModelMBean.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/FeatureInfo.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/Registry.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/RegistryMBean.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/mbeans-descriptors.dtd"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/modules/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/modeler/modules/ModelerSource.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/AbstractEndpoint$Handler.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/ApplicationBufferHandler.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/Nio2Channel.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/NioChannel.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/SendfileDataBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/SocketBufferHandler.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/SocketProcessorBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/SocketWrapperBase$CompletionCheck.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/SocketWrapperBase$OperationState.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/SocketWrapperBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/WriteBuffer$Sink.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/net/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/apache/tomcat/util/scan/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/security/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/threads/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/util/threads/ResizableExecutor.class"
-    },
-    {
-      "glob": "org/apache/tomcat/util/threads/ThreadPoolExecutor$RejectedExecutionHandler.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/Transformation.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/TransformationBuilder.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/WsFrameBase$TerminalTransformation.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/WsRemoteEndpointBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/pojo/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/pojo/PojoEndpointBase.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/pojo/PojoEndpointClient.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/pojo/PojoEndpointServer.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/server/DefaultServerEndpointConfigurator.class"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/server/LocalStrings.properties"
-    },
-    {
-      "glob": "org/apache/tomcat/websocket/server/WsSci.class"
-    },
-    {
-      "glob": "org/apache/tools/ant/DefaultLogger.class"
-    },
-    {
-      "glob": "org/apache/tools/ant/Task.class"
-    },
-    {
-      "glob": "org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/core/compiler/IProblem.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ICompilerRequestor.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/IErrorHandlingPolicy.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/dispatch/IProcessorProvider.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/AnnotationValueImpl.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/IElementInfo.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/ModuleElementImpl$PackageDirectiveImpl.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/TypeElementImpl.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/TypeMirrorImpl.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/TypesImpl$MemberInTypeFinder.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/apt/model/VariableElementImpl.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/ASTNode.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/BinaryExpression.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/Expression.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/ExpressionContext.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/IPolyExpression.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/Invocation.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/Literal.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/LocalDeclaration.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/MagicLiteral.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/MessageSend.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/MethodDeclaration.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/ModuleStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/NameReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/NumberLiteral.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/OperatorExpression.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/OperatorIds.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/PackageVisibilityStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/Pattern.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/QualifiedThisReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/QualifiedTypeReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/Reference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/ReturnStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SingleMemberAnnotation.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SingleNameReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SingleTypeReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/Statement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/StringLiteral.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement$Node.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement$SwitchTranslator.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/SwitchStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/ThisReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/TypeDeclaration.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/TypeOrLambda.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/TypePattern.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/ast/TypeReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/batch/ClasspathJrt.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/batch/ClasspathLocation.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/batch/FileSystem$Classpath.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ClassFileStruct.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/ExternalAnnotationProvider$IMethodAnnotationWalker.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/MethodInfo.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/RecordComponentInfo.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/classfmt/TypeAnnotationWalker.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/codegen/Label.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryAnnotation.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryElementValuePair.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryField.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryInfo.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryMethod.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryModule.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryNestedType.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryType.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IBinaryTypeAnnotation.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/ICompilationUnit.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IDependent.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IElementInfo.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IGenericField.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IGenericMethod.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IGenericType.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModule$IModuleReference.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModule$IPackageExport.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModule$IService.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModule.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModuleAwareNameEnvironment$LookupStrategy.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModuleAwareNameEnvironment.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IModulePathEntry.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IMultiModuleEntry.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/INameEnvironment.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/IRecordComponent.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/ISourceModule.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/env/ITypeAnnotationWalker.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/flow/FieldInitsFakingFlowContext.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/flow/FlowContext.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/flow/FlowInfo.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/flow/SwitchFlowContext.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/flow/TryFlowContext.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/impl/Constant.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/impl/ITypeRequestor.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/impl/ReferenceContext.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/AnnotationHolder.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/BinaryTypeBinding$VariableBindingInitialization.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/Binding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ConstraintFormula.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/HotSwappable.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ImportBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/InferenceSubstitution.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/InvocationSite.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/LocalVariableBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/MethodBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ModuleBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/NestedTypeBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ParameterizedMethodBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ProblemReasons.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/RecordComponentBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ReductionResult.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/ReferenceBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/Scope$Substitutor.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/Scope.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/SourceTypeBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/Substitution.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/TypeBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/TypeBindingVisitor.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/TypeConstants.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/TypeIds.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/TypeSystem.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/TypeVariableBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/lookup/VariableBinding.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/JavadocTagConstants.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/ParserBasicInformation.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/RecoveredElement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/RecoveredModuleStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/RecoveredPackageVisibilityStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/RecoveredStatement.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner$VanguardParser.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/parser/Scanner.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/problem/AbortType.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/problem/DefaultProblem.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/problem/ProblemSeverities.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/tool/EclipseFileManager.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/tool/ModuleLocationHandler$LocationWrapper.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/util/CharArrayMapper.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/util/JRTUtil$JrtFileVisitor.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/util/JrtFileSystem.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/util/SuffixConstants.class"
-    },
-    {
-      "glob": "org/eclipse/jdt/internal/compiler/util/Util$Displayable.class"
-    },
-    {
-      "glob": "org/graalvm/nativeimage/hosted/Feature.class"
-    },
-    {
-      "glob": "org/mbeans-descriptors.xml"
-    },
-    {
-      "glob": "org/xml/sax/Attributes.class"
-    },
-    {
-      "glob": "org/xml/sax/ContentHandler.class"
-    },
-    {
-      "glob": "org/xml/sax/DTDHandler.class"
-    },
-    {
-      "glob": "org/xml/sax/EntityResolver.class"
-    },
-    {
-      "glob": "org/xml/sax/ErrorHandler.class"
-    },
-    {
-      "glob": "org/xml/sax/SAXException.class"
-    },
-    {
-      "glob": "org/xml/sax/SAXParseException.class"
-    },
-    {
-      "glob": "org/xml/sax/ext/DeclHandler.class"
-    },
-    {
-      "glob": "org/xml/sax/ext/DefaultHandler2.class"
-    },
-    {
-      "glob": "org/xml/sax/ext/EntityResolver2.class"
-    },
-    {
-      "glob": "org/xml/sax/ext/LexicalHandler.class"
-    },
-    {
-      "glob": "org/xml/sax/helpers/AttributesImpl.class"
-    },
-    {
-      "glob": "org/xml/sax/helpers/DefaultHandler.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/BufferedReader.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/ByteArrayOutputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/CharConversionException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/Closeable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/DataInput.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/Externalizable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/FilenameFilter.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/FilterInputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/FilterOutputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/Flushable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/IOException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/InputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/ObjectInput.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/ObjectInputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/ObjectStreamConstants.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/OutputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/PrintStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/PrintWriter.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/Reader.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/Serializable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/io/Writer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Appendable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/AutoCloseable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Boolean.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/CharSequence.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Class.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/ClassLoader.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Cloneable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Comparable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Enum.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Error.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Exception.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/IllegalArgumentException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/IllegalStateException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Integer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Iterable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/LinkageError.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Long.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Math.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/NumberFormatException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Object.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Readable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Record.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Runnable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/RuntimeException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/String.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/System.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Thread.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/ThreadLocal.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/Throwable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/UnsatisfiedLinkError.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/constant/Constable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/invoke/LambdaMetafactory.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/invoke/StringConcatFactory.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/ref/Reference.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/ref/WeakReference.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/reflect/InvocationHandler.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/reflect/Type.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/lang/runtime/ObjectMethods.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/net/JarURLConnection.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/net/URLClassLoader.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/net/URLConnection.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/net/URLEncoder.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/net/URLStreamHandler.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/net/URLStreamHandlerFactory.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/ByteBuffer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/CharBuffer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/AsynchronousByteChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/AsynchronousChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/ByteChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/Channel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/CompletionHandler.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/GatheringByteChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/ReadableByteChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/ScatteringByteChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/channels/WritableByteChannel.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/charset/Charset.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/charset/CharsetEncoder.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/charset/StandardCharsets.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/file/FileVisitor.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/nio/file/SimpleFileVisitor.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/GeneralSecurityException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/Principal.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/PrivilegedAction.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/PrivilegedExceptionAction.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/SecureClassLoader.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/cert/Certificate.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/cert/X509Certificate.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/security/cert/X509Extension.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/text/DateFormat.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/text/Format.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/time/Clock.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/time/Instant.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/time/LocalDate.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/time/ZoneId.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/time/ZonedDateTime.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/time/format/DateTimeFormatter.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractCollection.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractList.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractMap$SimpleEntry.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractMap.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractQueue.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractSequentialList.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/AbstractSet.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/ArrayList.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Arrays.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Base64$Decoder.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Base64.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Collection.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Collections.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Comparator.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Deque.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Dictionary.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Enumeration.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/EventListener.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/EventObject.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/HashMap.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/HashSet.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Hashtable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Iterator.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/LinkedHashMap.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/LinkedHashSet.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/LinkedList.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/List.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Map$Entry.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Map.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Objects.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Optional.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Properties.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Queue.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Random.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/RandomAccess.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/SequencedCollection.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/SequencedMap.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/SequencedSet.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/Set.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/StringTokenizer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/UUID.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/AbstractExecutorService.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/BlockingQueue.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/Callable.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ConcurrentHashMap.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ConcurrentMap.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/Executor.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ExecutorService.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/Executors.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ForkJoinPool$ForkJoinWorkerThreadFactory.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ForkJoinWorkerThread.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/Future.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/LinkedBlockingQueue.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/RejectedExecutionHandler.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ScheduledExecutorService.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ScheduledFuture.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ThreadFactory.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/ThreadPoolExecutor.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/TimeUnit.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/atomic/AtomicInteger.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/atomic/AtomicReference.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/locks/AbstractOwnableSynchronizer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/locks/AbstractQueuedSynchronizer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/locks/Lock.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/locks/ReadWriteLock.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/locks/StampedLock.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/concurrent/mbeans-descriptors.xml"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/function/BiFunction.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/function/Consumer.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/function/Function.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/function/Predicate.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/function/Supplier.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/jar/JarInputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/mbeans-descriptors.xml"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/stream/Stream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/zip/InflaterInputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/zip/ZipConstants.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "java/util/zip/ZipInputStream.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/net/ssl/KeyManager.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/net/ssl/SSLEngine.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/net/ssl/SSLSession.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/net/ssl/SSLSessionContext.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/net/ssl/X509ExtendedKeyManager.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/net/ssl/X509KeyManager.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/security/auth/callback/Callback.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/security/auth/callback/CallbackHandler.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/security/auth/login/LoginException.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "javax/security/auth/spi/LoginModule.class"
-    },
-    {
-      "module": "java.base",
-      "glob": "jdk/internal/icu/impl/data/icudt76b/nfkc.nrm"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/annotation/processing/Filer.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/annotation/processing/Messager.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/annotation/processing/ProcessingEnvironment.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/annotation/processing/RoundEnvironment.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/AnnotatedConstruct.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/AnnotationMirror.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/AnnotationValue.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/Element.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ExecutableElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement$Directive.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement$ExportsDirective.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement$OpensDirective.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement$ProvidesDirective.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement$RequiresDirective.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement$UsesDirective.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/ModuleElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/Name.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/PackageElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/Parameterizable.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/QualifiedNameable.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/RecordComponentElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/TypeElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/TypeParameterElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/element/VariableElement.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/ArrayType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/DeclaredType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/ErrorType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/ExecutableType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/IntersectionType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/NoType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/NullType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/PrimitiveType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/ReferenceType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/TypeMirror.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/TypeVariable.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/type/WildcardType.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/util/Elements.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/lang/model/util/Types.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/Diagnostic.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/FileObject.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/ForwardingFileObject.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/ForwardingJavaFileObject.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/JavaCompiler$CompilationTask.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/JavaCompiler.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/JavaFileManager$Location.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/JavaFileManager.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/JavaFileObject.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/OptionChecker.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/SimpleJavaFileObject.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/StandardJavaFileManager.class"
-    },
-    {
-      "module": "java.compiler",
-      "glob": "javax/tools/Tool.class"
-    },
-    {
-      "module": "java.desktop",
-      "glob": "java/beans/PropertyChangeListener.class"
-    },
-    {
-      "module": "java.logging",
-      "glob": "java/util/logging/Formatter.class"
-    },
-    {
-      "module": "java.logging",
-      "glob": "java/util/logging/Handler.class"
-    },
-    {
-      "module": "java.logging",
-      "glob": "java/util/logging/LogManager.class"
-    },
-    {
-      "module": "java.logging",
-      "glob": "java/util/logging/Logger.class"
-    },
-    {
-      "module": "java.logging",
-      "glob": "sun/util/logging/resources/logging_en.properties"
-    },
-    {
-      "module": "java.logging",
-      "glob": "sun/util/logging/resources/logging_en_US.properties"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/DynamicMBean.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/MBeanRegistration.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/MBeanServer.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/MBeanServerConnection.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/NotificationBroadcaster.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/NotificationEmitter.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/NotificationFilter.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/NotificationListener.class"
-    },
-    {
-      "module": "java.management",
-      "glob": "javax/management/modelmbean/ModelMBeanNotificationBroadcaster.class"
-    },
-    {
-      "module": "java.naming",
-      "glob": "javax/naming/Context.class"
-    },
-    {
-      "module": "java.naming",
-      "glob": "javax/naming/NameParser.class"
-    },
-    {
-      "module": "java.naming",
-      "glob": "javax/naming/NamingEnumeration.class"
-    },
-    {
-      "module": "java.naming",
-      "glob": "javax/naming/Reference.class"
-    },
-    {
-      "module": "java.naming",
-      "glob": "javax/naming/spi/InitialContextFactory.class"
-    },
-    {
-      "module": "java.naming",
-      "glob": "javax/naming/spi/ObjectFactory.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "com/sun/org/apache/xerces/internal/jaxp/SAXParserFactoryImpl.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "jdk/xml/internal/jdkcatalog/JDKCatalog.xml"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/Attributes.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/ContentHandler.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/DTDHandler.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/EntityResolver.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/ErrorHandler.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/SAXException.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/SAXParseException.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/ext/DeclHandler.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/ext/DefaultHandler2.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/ext/EntityResolver2.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/ext/LexicalHandler.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/helpers/AttributesImpl.class"
-    },
-    {
-      "module": "java.xml",
-      "glob": "org/xml/sax/helpers/DefaultHandler.class"
-    },
-    {
-      "module": "jdk.jfr",
-      "glob": "jdk/jfr/internal/query/view.ini"
-    },
-    {
-      "module": "org.graalvm.nativeimage",
-      "glob": "org/graalvm/nativeimage/hosted/Feature.class"
-    }
-  ],
-  "bundles": [
-    {
-      "name": "jakarta.servlet.LocalStrings",
-      "locales": [
-        "en-US"
-      ]
-    },
-    {
-      "name": "jakarta.servlet.http.LocalStrings",
-      "locales": [
-        "en-US"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.authenticator.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.authenticator.jaspic.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.connector.LocalStrings",
-      "locales": [
-        "und"
-      ]
     },
-    {
-      "name": "org.apache.catalina.core.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.deploy.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.loader.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.mapper.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.mbeans.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.realm.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.servlets.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.session.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.startup.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.util.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.valves.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.catalina.webresources.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.coyote.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.coyote.http11.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.coyote.http11.filters.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.buf.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.collections.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.compat.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.descriptor.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.descriptor.web.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.digester.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.http.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.http.parser.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.modeler.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.modeler.modules.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.net.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.scan.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.security.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.util.threads.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.websocket.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.websocket.pojo.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    },
-    {
-      "name": "org.apache.tomcat.websocket.server.LocalStrings",
-      "locales": [
-        "und"
-      ]
-    }
-  ],
-  "jni": [
     {
-      "type": "[Lcom.sun.management.internal.DiagnosticCommandArgumentInfo;"
+      "type": "sun.text.resources.cldr.FormatData"
     },
     {
-      "type": "[Lcom.sun.management.internal.DiagnosticCommandInfo;"
+      "type": "sun.text.resources.cldr.FormatData_en"
     },
     {
-      "type": "com.sun.management.internal.DiagnosticCommandArgumentInfo",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "boolean",
-            "boolean",
-            "boolean",
-            "int"
-          ]
-        }
-      ]
+      "type": "sun.text.resources.cldr.FormatData_en_US"
     },
     {
-      "type": "com.sun.management.internal.DiagnosticCommandInfo",
-      "methods": [
-        {
-          "name": "<init>",
-          "parameterTypes": [
-            "java.lang.String",
-            "java.lang.String",
-            "java.lang.String",
-            "boolean",
-            "java.util.List"
-          ]
-        }
-      ]
+      "type": "sun.util.resources.cldr.CalendarData"
     },
     {
-      "type": "java.lang.Boolean",
-      "methods": [
-        {
-          "name": "getBoolean",
-          "parameterTypes": [
-            "java.lang.String"
-          ]
-        }
-      ]
+      "type": "sun.util.resources.cldr.TimeZoneNames"
     },
     {
-      "type": "java.util.Arrays",
-      "methods": [
-        {
-          "name": "asList",
-          "parameterTypes": [
-            "java.lang.Object[]"
-          ]
-        }
-      ]
+      "type": "sun.util.resources.cldr.TimeZoneNames_en"
     },
     {
-      "type": "sun.management.VMManagementImpl",
-      "fields": [
-        {
-          "name": "compTimeMonitoringSupport"
-        },
-        {
-          "name": "currentThreadCpuTimeSupport"
-        },
-        {
-          "name": "objectMonitorUsageSupport"
-        },
-        {
-          "name": "otherThreadCpuTimeSupport"
-        },
-        {
-          "name": "remoteDiagnosticCommandsSupport"
-        },
-        {
-          "name": "synchronizerUsageSupport"
-        },
-        {
-          "name": "threadAllocatedMemorySupport"
-        },
-        {
-          "name": "threadContentionMonitoringSupport"
-        }
-      ]
+      "type": "sun.util.resources.cldr.TimeZoneNames_en_US"
     }
   ]
 }
