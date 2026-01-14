@@ -3460,6 +3460,9 @@
       "glob": "com/webfirmframework/wffweb/tag/html/AbstractHtml.class"
     },
     {
+      "glob": "com/webfirmframework/wffweb/tag/html/ApplicableTagGCTask.class"
+    },
+    {
       "glob": "com/webfirmframework/wffweb/tag/html/Body.class"
     },
     {
@@ -5453,6 +5456,9 @@
     },
     {
       "glob": "org/apache/tomcat/PeriodicEventListener.class"
+    },
+    {
+      "glob": "org/apache/tomcat/jni/AprStatus.class"
     },
     {
       "glob": "org/apache/tomcat/mbeans-descriptors.xml"
